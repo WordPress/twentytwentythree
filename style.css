@@ -1,0 +1,27 @@
+/*
+Theme Name: Twenty Twenty-Three
+Theme URI: https://github.com/WordPress/twentytwentythree
+Author: wordpressdotorg
+Author URI: https://wordpress.org
+Description:
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 5.7
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: https://raw.githubusercontent.com/Automattic/themes/trunk/LICENSE
+Template:
+Text Domain: twentytwentythree
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, wide-blocks
+*/
+
+/*
+ * Font smoothing.
+ * This is a niche setting that will not be available via Global Styles.
+ * https://github.com/WordPress/gutenberg/issues/35934
+ */
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}

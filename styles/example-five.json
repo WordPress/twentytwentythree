@@ -29,7 +29,57 @@
 					"slug": "tertiary"
 				}
 			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "IBMPlexMono",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono/ibm-plex-mono-Regular.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "IBMPlexMono",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono/ibm-plex-mono-Regular-italic.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "IBMPlexMono",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono/ibm-plex-mono-Bold.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "IBMPlexMono",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono/ibm-plex-mono-Bold-italic.ttf"
+							]
+						}
+					],
+					"fontFamily": "IBMPlexMono, sans-serif",
+					"slug": "ibm-plex-mono",
+					"name": "IBM Plex Mono"
+				}
+			]
 		}
+
 	},
 	"styles": {
 		"elements": {
@@ -37,11 +87,11 @@
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--secondary)"
-				},
+				}
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--source-serif-pro)"
+			"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
 		}
 	},
 	"version": 2,

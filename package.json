@@ -22,7 +22,8 @@
 		"stylelint": "^14.10.0"
 	},
 	"scripts": {
-		"lint:css": "stylelint **/*.css --fix -i .gitignore",
+		"lint:css": "stylelint **/*.css -i .gitignore",
+		"lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
 		"lint:php": "./vendor/bin/phpcs",
 		"lint:php:fix": "./bin/phpcbf.sh"
 	}

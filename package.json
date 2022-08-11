@@ -1,5 +1,6 @@
 {
 	"name": "twentytwentythree",
+	"private": true,
 	"version": "0.0.1",
 	"description": "The default WordPress theme for 2023",
 	"author": "WordPress",

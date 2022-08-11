@@ -361,6 +361,7 @@
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--system-font)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
+			"fontWeight": "300",
 			"lineHeight": "1.6"
 		}
 	},

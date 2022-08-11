@@ -1,7 +1,7 @@
 {
 	"name": "wordpress/twentytwentythree",
 	"type": "package",
-	"description": "he default WordPress theme for 2023",
+	"description": "The default WordPress theme for 2023",
 	"keywords": [
 		"WordPress",
 		"Themes"

@@ -217,7 +217,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-font)",
 					"fontSize": "clamp(3.25rem, calc(3.25rem + ((1vw - 0.48rem) * 8.4135)), 3.625rem)",
-					"fontWeight": "300",
+					"fontWeight": "var(--wp--custom--typography--font-weight--light)",
 					"lineHeight": "1.2"
 				}
 			},
@@ -230,7 +230,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-font)",
 					"fontSize": "clamp(3.25rem, calc(3.25rem + ((1vw - 0.48rem) * 8.4135)), 3.625rem)",
-					"fontWeight": "300",
+					"fontWeight": "var(--wp--custom--typography--font-weight--light)",
 					"lineHeight": "1.2"
 				}
 			},
@@ -244,7 +244,7 @@
 					"fontFamily": "var(--wp--preset--font-family--system-font)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontStyle": "italic",
-					"fontWeight": "normal",
+					"fontWeight": "var(--wp--custom--typography--font-weight--regular)",
 					"lineHeight": "1.4"
 				}
 			}
@@ -288,7 +288,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-font)",
 					"fontSize": "3.625rem",
-					"fontWeight": "300",
+					"fontWeight": "var(--wp--custom--typography--font-weight--light)",
 					"lineHeight": "1.2"
 				}
 			},
@@ -296,7 +296,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-font)",
 					"fontSize": "clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem)",
-					"fontWeight": "300",
+					"fontWeight": "var(--wp--custom--typography--font-weight--light)",
 					"lineHeight": "1.2"
 				}
 			},
@@ -304,7 +304,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-font)",
 					"fontSize": "2.25rem",
-					"fontWeight": "300",
+					"fontWeight": "var(--wp--custom--typography--font-weight--light)",
 					"lineHeight": "1.4"
 				}
 			},
@@ -312,7 +312,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-font)",
 					"fontSize": "clamp(1.75rem, calc(1.75rem + ((1vw - 0.48rem) * 8.4135)), 1.875em)",
-					"fontWeight": "300",
+					"fontWeight": "var(--wp--custom--typography--font-weight--light)",
 					"lineHeight": "1.4"
 				}
 			},
@@ -320,7 +320,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-font)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "700",
+					"fontWeight": "var(--wp--custom--typography--font-weight--bold)",
 					"lineHeight": "1.4",
 					"textTransform": "uppercase"
 				}
@@ -329,7 +329,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-font)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "400",
+					"fontWeight": "var(--wp--custom--typography--font-weight--regular)",
 					"lineHeight": "1.4",
 					"textTransform": "uppercase"
 				}

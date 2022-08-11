@@ -16,7 +16,7 @@ If you'd like to help with triage, let @mikachan and @beafialho know here or in 
 
 ### Contributing Style Variations
 
-A big part of Twenty Twenty-Three is to emphasize a diverse collection of style variations, so this is a great way to contribute to the theme!
+A big part of Twenty Twenty-Three is to emphasize a diverse collection of style variations, so this is a great way to contribute to the theme! You can read more about this in the [project kick-off post](https://make.wordpress.org/design/2022/08/10/twenty-twenty-three-default-theme-project-kickoff/).
 
 #### Design a style variation
 This can be done a few different ways, including:

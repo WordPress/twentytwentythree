@@ -1,0 +1,26 @@
+{
+	"name": "twentytwentythree",
+	"version": "0.0.1",
+	"description": "The default WordPress theme for 2023",
+	"author": "WordPress",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"theme"
+	],
+	"homepage": "https://github.com/WordPress/twentytwentythree#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/WordPress/twentytwentythree.git"
+	},
+	"bugs": {
+		"url": "https://github.com/WordPress/twentytwentytwo/issues"
+	},
+	"devDependencies": {
+		"@wordpress/stylelint-config": "^20.0.2",
+		"stylelint": "^14.10.0"
+	},
+	"scripts": {
+		"lint:css": "stylelint **/*.css --fix -i .gitignore"
+	}
+}

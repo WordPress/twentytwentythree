@@ -161,6 +161,15 @@
 					}
 				}
 			},
+			"core/post-content": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--secondary)"
+						}
+					}
+				}
+			},
 			"core/post-comments": {
 				"spacing": {
 					"padding": {
@@ -297,7 +306,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--secondary)"
+					"text": "var(--wp--preset--color--foreground)"
 				},
 				":hover": {
 					"typography": {

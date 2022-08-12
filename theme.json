@@ -9,13 +9,6 @@
 			"title": "Blank"
 		},
 		{
-			"name": "page-large-header",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page (Large Header)"
-		},
-		{
 			"name": "single-no-separators",
 			"postTypes": [
 				"post"

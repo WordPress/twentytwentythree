@@ -40,6 +40,18 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"duotone": [
+				{
+					"colors": [
+						"rgb(81, 82, 213)",
+						"rgb(121, 238, 196)",
+						"rgb(236, 249, 87)",
+						"rgb(247, 69, 204)"
+					],
+					"name": "Default filter",
+					"slug": "default-filter"
+				}
+			],
 			"palette": [
 				{
 					"color": "#ffffff",
@@ -75,7 +87,7 @@
 		"spacing": {
 			"spacingScale": {
 				"operator": "+",
-				"increment": 0.5,
+				"increment": 0.25,
 				"steps": 9,
 				"mediumStep": 3,
 				"unit": "vw"
@@ -241,6 +253,9 @@
 				}
 			},
 			"core/post-featured-image": {
+				"filter": {
+					"duotone": "var(--wp--preset--duotone--default-filter)"
+				},
 				"border": {
 					"color": "var(--wp--preset--color--tertiary)",
 					"radius": "var(--wp--preset--spacing--10)",
@@ -335,12 +350,12 @@
 				"border": {
 					"bottom": {
 						"color": "transparent",
-						"width": "10vw"
+						"width": "5vw"
 					},
 					"style": "double",
 					"top": {
 						"color": "transparent",
-						"width": "10vw"
+						"width": "5vw"
 					},
 					"width": "40vw"
 				},
@@ -359,6 +374,11 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "200"
+				}
+			},
+			"core/spacer": {
+				"spacing": {
+					"margin": "0px"
 				}
 			},
 			"core/template-part": {

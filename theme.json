@@ -224,9 +224,7 @@
 			},
 			"core/post-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-large)",
-					"fontWeight": "300",
-					"lineHeight": "1.2"
+					"fontSize": "var(--wp--preset--font-size--xx-large)"
 				}
 			},
 			"core/pullquote": {

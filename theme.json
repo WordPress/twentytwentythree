@@ -160,9 +160,6 @@
 				}
 			},
 			"core/navigation": {
-				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--50)"
-				},
 				"elements": {
 					"link": {
 						":active": {
@@ -174,6 +171,9 @@
 							}
 						}
 					}
+				},
+				"spacing": {
+					"blockGap": "var(--wp--preset--spacing--50)"
 				}
 			},
 			"core/post-author": {
@@ -229,15 +229,15 @@
 				}
 			},
 			"core/post-date": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				},
 				"elements": {
 					"link": {
 						"typography": {
 							"textDecoration": "none"
 						}
 					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/post-featured-image": {
@@ -273,33 +273,33 @@
 				}
 			},
 			"core/post-title": {
-				"spacing": {
-					"margin": "0px"
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-large)",
-					"lineHeight": "1.2"
-				},
 				"elements": {
 					"link": {
 						"typography": {
 							"textDecoration": "none"
 						}
 					}
+				},
+				"spacing": {
+					"margin": "0px"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xx-large)",
+					"lineHeight": "1.2"
 				}
 			},
 			"core/pullquote": {
 				"border": {
-					"top": {
-						"color": "transparent",
-						"width": "8vw"
-					},
 					"bottom": {
 						"color": "transparent",
 						"width": "8vw"
 					},
 					"color": "var(--wp--preset--color--tertiary)",
 					"style": "double",
+					"top": {
+						"color": "transparent",
+						"width": "8vw"
+					},
 					"width": "8vw"
 				}
 			},
@@ -316,11 +316,11 @@
 				}
 			},
 			"core/quote": {
-				"color": {
-					"background": "var(--wp--preset--color--tertiary)"
-				},
 				"border": {
 					"radius": "var(--wp--preset--spacing--10)"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--tertiary)"
 				},
 				"spacing": {
 					"padding": {
@@ -337,11 +337,11 @@
 						"color": "transparent",
 						"width": "10vw"
 					},
+					"style": "double",
 					"top": {
 						"color": "transparent",
 						"width": "10vw"
 					},
-					"style": "double",
 					"width": "40vw"
 				},
 				"color": {
@@ -385,6 +385,17 @@
 		},
 		"elements": {
 			"button": {
+				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--base)"
+					}
+				},
+				":hover": {
+					"color": {
+						"gradient": "radial-gradient(ellipse at top left, rgba(236, 249, 87, 1) 15% , transparent 100%) fixed, radial-gradient(ellipse at bottom left, rgba(247, 69, 204, 1) 15% , transparent 100%) fixed, radial-gradient(ellipse at top right, rgba(121, 238, 196, 1) 15% , transparent 100%) fixed, radial-gradient(ellipse at bottom right, rgba(81, 82, 213, 1) 15% , transparent 100%) fixed",
+						"text": "var(--wp--preset--color--contrast)"
+					}
+				},
 				"border": {
 					"radius": "99999px"
 				},
@@ -397,17 +408,6 @@
 					"fontWeight": "200",
 					"letterSpacing": ".2em",
 					"textTransform": "uppercase"
-				},
-				":active": {
-					"color": {
-						"text": "var(--wp--preset--color--base)"
-					}
-				},
-				":hover": {
-					"color": {
-						"text": "var(--wp--preset--color--contrast)",
-						"gradient": "radial-gradient(ellipse at top left, rgba(236, 249, 87, 1) 15% , transparent 100%) fixed, radial-gradient(ellipse at bottom left, rgba(247, 69, 204, 1) 15% , transparent 100%) fixed, radial-gradient(ellipse at top right, rgba(121, 238, 196, 1) 15% , transparent 100%) fixed, radial-gradient(ellipse at bottom right, rgba(81, 82, 213, 1) 15% , transparent 100%) fixed"
-					}
 				}
 			},
 			"caption": {
@@ -464,12 +464,6 @@
 				}
 			},
 			"link": {
-				"color": {
-					"text": "var(--wp--preset--color--foreground)"
-				},
-				"typography": {
-					"textDecoration": "overline 1px"
-				},
 				":active": {
 					"color": {
 						"text": "var(--wp--preset--color--base)"
@@ -479,6 +473,12 @@
 					"typography": {
 						"textDecoration": "overline 1px"
 					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--foreground)"
+				},
+				"typography": {
+					"textDecoration": "overline 1px"
 				}
 			}
 		},

@@ -237,13 +237,6 @@
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
-			"core/query-title": {
-				"typography": {
-					"fontSize": "clamp(3.25rem, calc(3.25rem + ((1vw - 0.48rem) * 8.4135)), 3.625rem)",
-					"fontWeight": "300",
-					"lineHeight": "1.2"
-				}
-			},
 			"core/quote": {
 				"border": {
 					"width": "1px"

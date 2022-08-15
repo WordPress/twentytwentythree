@@ -1,35 +1,44 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:query {"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"inherit":true},"tagName":"main"} -->
-<main class="wp-block-query"><!-- wp:post-template {"align":"wide"} -->
-	<!-- wp:post-title {"isLink":true,"align":"wide"} /-->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"8rem","bottom":"8rem"}}},"layout":{"inherit":true}} -->
+<main class="wp-block-group" style="margin-top:8rem;margin-bottom:8rem">
 
-	<!-- wp:post-featured-image {"isLink":true,"align":"wide"} /-->
-
-	<!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide"><!-- wp:column {"width":"650px"} -->
-	<div class="wp-block-column" style="flex-basis:650px"><!-- wp:post-excerpt /-->
-
-	<!-- wp:post-date {"isLink":true,"format":"F j, Y"} /--></div>
-	<!-- /wp:column -->
-
-	<!-- wp:column {"width":""} -->
-	<div class="wp-block-column"></div>
-	<!-- /wp:column --></div>
-	<!-- /wp:columns -->
-
-	<!-- wp:spacer {"height":112} -->
-	<div style="height:112px" aria-hidden="true" class="wp-block-spacer"></div>
-	<!-- /wp:spacer -->
-	<!-- /wp:post-template -->
-
-	<!-- wp:query-pagination {"paginationArrow":"arrow","align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
-	<!-- wp:query-pagination-previous /-->
-
-	<!-- wp:query-pagination-numbers /-->
-
-	<!-- wp:query-pagination-next /-->
-	<!-- /wp:query-pagination --></main>
+	<!-- wp:image {"align":"wide"} -->
+	<figure class="wp-block-image alignwide"><img alt=""/></figure>
+	<!-- /wp:image -->
+	
+	<!-- wp:heading {"align":"wide","style":{"typography":{"letterSpacing":"-2px","fontWeight":"400"},"spacing":{"margin":{"top":"8rem","bottom":"8rem"}}}} -->
+	<h2 class="alignwide" style="margin-top:8rem;margin-bottom:8rem;font-weight:400;letter-spacing:-2px">Mindblown: a blog about philosophy.</h2>
+	<!-- /wp:heading -->
+	
+	<!-- wp:query {"queryId":0,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":3},"align":"wide","layout":{"inherit":true}} -->
+	<div class="wp-block-query alignwide">
+		<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+		<div class="wp-block-group alignwide">
+			<!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"small"} -->
+			<h3 class="has-small-font-size" style="font-style:normal;font-weight:400;text-transform:uppercase">Latests posts</h3>
+			<!-- /wp:heading -->
+			<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"right"}} -->
+			<!-- wp:query-pagination-next {"label":"View more","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"small"} /-->
+			<!-- /wp:query-pagination -->
+		</div>
+		<!-- /wp:group -->
+		<!-- wp:post-template {"align":"wide"} -->
+			<!-- wp:post-featured-image {"isLink":true,"align":"wide"} /-->
+			<!-- wp:post-title {"level":4,"isLink":true,"style":{"spacing":{"margin":{"top":"var(--wp--preset--spacing--60)","bottom":"var(--wp--preset--spacing--60)"}}}} /-->
+			<!-- wp:post-excerpt /-->
+			<!-- wp:post-date {"format":"F j, Y","isLink":true} /-->
+			<!-- wp:spacer {"height":"var(--wp--preset--spacing--90)"} -->
+			<div style="height:var(--wp--preset--spacing--90)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
+		<!-- /wp:post-template -->
+	</div>
 	<!-- /wp:query -->
+</main>
+<!-- /wp:group -->
 
-	<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Pattern above footer goes here</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

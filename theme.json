@@ -70,9 +70,26 @@
 				"operator": "+",
 				"increment": 1,
 				"steps": 8,
-				"mediumStep": 1,
+				"mediumStep": 3,
 				"unit": "rem"
 			},
+			"spacingSizes": [
+				{
+					"size": "max(1.25rem, 5vw)",
+					"slug": "35",
+					"name": "Flexi Small"
+				},
+				{
+					"size": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",
+					"slug": "45",
+					"name": "Flexi Medium"
+				},
+				{
+					"size": "clamp(4rem, 10vw, 8rem)",
+					"slug": "85",
+					"name": "Flexi Large"
+				}
+			],
 			"units": [
 				"%",
 				"px",

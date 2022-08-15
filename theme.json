@@ -206,7 +206,7 @@
 			"core/post-comments": {
 				"spacing": {
 					"padding": {
-						"top": "var(--wp--preset--spacing--30)"
+						"top": "var(--wp--preset--spacing--60)"
 					}
 				}
 			},
@@ -349,9 +349,9 @@
 			"blockGap": "1.5rem",
 			"padding": {
 				"top": "0px",
-				"right": "var(--wp--preset--spacing--30)",
+				"right": "var(--wp--preset--spacing--60)",
 				"bottom": "0px",
-				"left": "var(--wp--preset--spacing--30)"
+				"left": "var(--wp--preset--spacing--60)"
 			}
 		},
 		"typography": {

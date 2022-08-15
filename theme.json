@@ -68,9 +68,9 @@
 		"spacing": {
 			"spacingScale": {
 				"operator": "+",
-				"increment": 0.5,
-				"steps": 14,
-				"mediumStep": 1.5,
+				"increment": 1,
+				"steps": 8,
+				"mediumStep": 1,
 				"unit": "rem"
 			},
 			"units": [

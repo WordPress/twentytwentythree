@@ -15,7 +15,7 @@
 		"url": "git+https://github.com/WordPress/twentytwentythree.git"
 	},
 	"bugs": {
-		"url": "https://github.com/WordPress/twentytwentytwo/issues"
+		"url": "https://github.com/WordPress/twentytwentythree/issues"
 	},
 	"devDependencies": {
 		"@wordpress/stylelint-config": "^20.0.2",

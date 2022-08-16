@@ -13,7 +13,7 @@
 <!-- wp:paragraph {"align":"right"} -->
 <p class="has-text-align-right">
 <?php
-sprintf(
+printf(
 	/* Translators: WordPress link. */
 	esc_html__( 'Proudly powered by %s', 'twentytwentythree' ),
 	'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentythree' ) ) . '" rel="nofollow">WordPress</a>'

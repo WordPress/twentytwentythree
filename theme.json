@@ -190,7 +190,7 @@
 			},
 			"core/post-author": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/post-content": {
@@ -211,12 +211,12 @@
 			},
 			"core/post-date": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/post-terms": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/post-title": {

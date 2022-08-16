@@ -6,9 +6,9 @@
  */
 ?>
 <!-- wp:heading {"className":"has-text-align-center"} -->
-<h2 class="has-text-align-center"><?php esc_html( _x( '404', 'Error code for a webpage that is not found.', 'twentytwentythree' ) ) ?></h2>
+<h2 class="has-text-align-center"><?php esc_html( _x( '404', 'Error code for a webpage that is not found.', 'twentytwentythree' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php esc_html__( 'This page could not be found. Maybe try a search?', 'twentytwentythree' ) ?></p>
+<p class="has-text-align-center"><?php esc_html__( 'This page could not be found. Maybe try a search?', 'twentytwentythree' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:search {"label":"Search","showLabel":false,"width":50,"widthUnit":"%","buttonText":"Search","buttonUseIcon":true,"align":"center"} /-->

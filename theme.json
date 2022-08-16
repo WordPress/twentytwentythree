@@ -237,7 +237,6 @@
 			"core/post-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)",
-					"letterSpacing": "-2px",
 					"fontWeight": "400"
 				},
 				"elements": {

@@ -11,6 +11,13 @@
 			"title": "Blank"
 		},
 		{
+			"name": "blog-alternative",
+			"postTypes": [
+				"page"
+			],
+			"title": "Blog (Alternative)"
+		},
+		{
 			"name": "single-no-separators",
 			"postTypes": [
 				"post"

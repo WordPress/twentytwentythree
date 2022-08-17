@@ -373,7 +373,7 @@
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "clamp(1.75rem, calc(1.75rem + ((1vw - 0.48rem) * 8.4135)), 1.875em)"
+					"fontSize": "clamp(1.75rem, calc(1.75rem + ((1vw - 0.48rem) * 8.4135)), 1.875rem)"
 				}
 			},
 			"h5": {

@@ -76,18 +76,18 @@
 			"spacingSizes": [
 				{
 					"size": "max(1.25rem, 5vw)",
-					"slug": "35",
-					"name": "Flexi Small"
+					"slug": "40",
+					"name": "40"
 				},
 				{
 					"size": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",
-					"slug": "45",
-					"name": "Flexi Medium"
+					"slug": "50",
+					"name": "50"
 				},
 				{
 					"size": "clamp(4rem, 10vw, 8rem)",
-					"slug": "85",
-					"name": "Flexi Large"
+					"slug": "90",
+					"name": "90"
 				}
 			],
 			"units": [
@@ -223,7 +223,7 @@
 			"core/post-comments": {
 				"spacing": {
 					"padding": {
-						"top": "var(--wp--preset--spacing--35)"
+						"top": "var(--wp--preset--spacing--40)"
 					}
 				}
 			},
@@ -366,9 +366,9 @@
 			"blockGap": "1.5rem",
 			"padding": {
 				"top": "0px",
-				"right": "var(--wp--preset--spacing--35)",
+				"right": "var(--wp--preset--spacing--40)",
 				"bottom": "0px",
-				"left": "var(--wp--preset--spacing--35)"
+				"left": "var(--wp--preset--spacing--40)"
 			}
 		},
 		"typography": {

@@ -5,6 +5,7 @@
  * Inserter: no
  */
 ?>
+
 <!-- wp:heading {"style":{"typography":{"fontSize":"clamp(4rem, 40vw, 20rem)","fontWeight":"400","lineHeight":"1.25"}},"className":"has-text-align-center"} -->
 <h2 class="has-text-align-center" style="font-size:clamp(4rem, 40vw, 20rem);font-weight:400;line-height:1.25"><?php echo esc_html( _x( '404', 'Error code for a webpage that is not found.', 'twentytwentythree' ) ); ?></h2>
 <!-- /wp:heading -->

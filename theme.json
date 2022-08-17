@@ -66,16 +66,14 @@
 			"wideSize": "1000px"
 		},
 		"spacing": {
-			"spacingScale": {
-				"operator": "+",
-				"increment": 1,
-				"steps": 8,
-				"mediumStep": 3,
-				"unit": "rem"
-			},
 			"spacingSizes": [
 				{
 					"size": "max(1.25rem, 5vw)",
+					"slug": "30",
+					"name": "30"
+				},
+				{
+					"size": "clamp(1.5rem, 1.5rem + ((1vw - 0.48rem) * 2.885), 3rem)",
 					"slug": "40",
 					"name": "40"
 				},
@@ -86,8 +84,13 @@
 				},
 				{
 					"size": "clamp(4rem, 10vw, 8rem)",
-					"slug": "90",
-					"name": "90"
+					"slug": "60",
+					"name": "60"
+				},
+				{
+					"size": "clamp(5.25rem, 5.25rem + ((1vw - 0.48rem) * 10.096), 10.5rem)",
+					"slug": "70",
+					"name": "70"
 				}
 			],
 			"units": [
@@ -223,7 +226,7 @@
 			"core/post-comments": {
 				"spacing": {
 					"padding": {
-						"top": "var(--wp--preset--spacing--40)"
+						"top": "var(--wp--preset--spacing--30)"
 					}
 				}
 			},
@@ -366,9 +369,9 @@
 			"blockGap": "1.5rem",
 			"padding": {
 				"top": "0px",
-				"right": "var(--wp--preset--spacing--40)",
+				"right": "var(--wp--preset--spacing--30)",
 				"bottom": "0px",
-				"left": "var(--wp--preset--spacing--40)"
+				"left": "var(--wp--preset--spacing--30)"
 			}
 		},
 		"typography": {

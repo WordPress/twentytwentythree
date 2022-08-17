@@ -254,7 +254,8 @@
 			},
 			"core/query-pagination": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "400"
 				}
 			},
 			"core/quote": {

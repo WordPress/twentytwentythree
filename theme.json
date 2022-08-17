@@ -345,7 +345,6 @@
 			"heading": {
 				"typography": {
 					"fontWeight": "300",
-					"letterSpacing": "-0.02rem",
 					"lineHeight": "1.4"
 				}
 			},

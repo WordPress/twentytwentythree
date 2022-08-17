@@ -6,7 +6,7 @@
  */
 ?>
 <!-- wp:heading {"className":"has-text-align-center"} -->
-<h2 class="has-text-align-center"><?php echo esc_html( _x( '404', 'Error code for a webpage that is not found.', 'twentytwentythree' ) ); ?></h2>
+<h2 class="has-text-align-center"><?php echo esc_html_x( '404', 'Error code for a webpage that is not found.', 'twentytwentythree' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center"><?php esc_html_e( 'This page could not be found. Maybe try a search?', 'twentytwentythree' ); ?></p>

@@ -1,0 +1,29 @@
+{
+	"name": "wordpress/twentytwentythree",
+	"type": "package",
+	"description": "The default WordPress theme for 2023",
+	"keywords": [
+		"WordPress",
+		"Themes"
+	],
+	"homepage": "https://github.com/WordPress/twentytwentythree",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Contributors",
+			"homepage": "https://github.com/WordPress/twentytwentythree/contributors.md"
+		}
+	],
+	"require": {
+		"php": ">=5.6"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+		"wptrt/wpthemereview": "^0.2.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}

@@ -66,6 +66,9 @@
 			"wideSize": "1000px"
 		},
 		"spacing": {
+			"spacingScale": {
+				"steps": 0
+			},
 			"spacingSizes": [
 				{
 					"size": "max(1.25rem, 5vw)",

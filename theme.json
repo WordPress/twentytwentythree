@@ -325,7 +325,8 @@
 			},
 			"core/query-pagination": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "400"
 				},
 				"elements": {
 					"link": {
@@ -422,7 +423,6 @@
 			"heading": {
 				"typography": {
 					"fontWeight": "300",
-					"letterSpacing": "-0.02rem",
 					"lineHeight": "1.4"
 				}
 			},

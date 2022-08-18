@@ -29,6 +29,30 @@
 					"slug": "tertiary"
 				}
 			]
+		},
+		"typography": {
+			"fontSizes": [
+				{
+					"size": "1.125rem",
+					"slug": "small"
+				},
+				{
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"size": "1.125rem",
+					"slug": "large"
+				},
+				{
+					"size": "1.125rem",
+					"slug": "x-large"
+				},
+				{
+					"size": "1.125rem",
+					"slug": "xx-large"
+				}
+			]
 		}
 	},
 	"styles": {

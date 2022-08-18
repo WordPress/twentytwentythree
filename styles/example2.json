@@ -47,7 +47,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--source-serif-pro)"
+			"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
 		}
 	},
 	"version": 2,

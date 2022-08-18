@@ -9,13 +9,6 @@
 			"title": "Blank"
 		},
 		{
-			"name": "single-no-separators",
-			"postTypes": [
-				"post"
-			],
-			"title": "Single Post (No Separators)"
-		},
-		{
 			"name": "404",
 			"postTypes": [
 				"page"

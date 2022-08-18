@@ -57,6 +57,11 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/navigation": {
+				"typography": {
+					"textTransform": "lowercase"
+				}
+			},
 			"core/post-title": {
 				"typography": {
 					"fontWeight": "700"
@@ -70,7 +75,6 @@
 			"core/site-title": {
 				"typography": {
 					"fontWeight": "700",
-					"textDecoration": "none",
 					"textTransform": "lowercase"
 				},
 				"elements": {

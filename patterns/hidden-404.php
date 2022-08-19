@@ -15,7 +15,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var(--wp--preset--spacing--100)"} -->
-<div style="height:var(--wp--preset--spacing--100)" class="wp-block-spacer"></div>
+<div style="height:var(--wp--preset--spacing--100)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:search {"label":"<?php echo esc_html( _x( 'Search', 'label', 'twentytwentythree' ) ); ?>","placeholder":"<?php echo esc_html( _x( 'Search...', 'placeholder', 'twentytwentythree' ) ); ?>","showLabel":false,"width":70,"widthUnit":"%","buttonText":"<?php esc_html_e( 'Search', 'twentytwentythree' ); ?>","buttonUseIcon":true,"align":"center"} /-->

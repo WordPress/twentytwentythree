@@ -243,7 +243,7 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/navigation-link": {
+			"core/navigation": {
 				"elements": {
 					"link": {
 						":hover": {

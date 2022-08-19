@@ -80,27 +80,27 @@
 			},
 			"spacingSizes": [
 				{
-					"size": "clamp(1.25rem, 5vw, 2rem)",
+					"size": "clamp(1.5rem, 5vw, 2rem)",
 					"slug": "30",
 					"name": "30"
 				},
 				{
-					"size": "clamp(1.5rem, 1.5rem + ((1vw - 0.48rem) * 2.885), 3rem)",
+					"size": "clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)",
 					"slug": "40",
 					"name": "40"
 				},
 				{
-					"size": "clamp(2rem, 8vw, 6.5rem))",
+					"size": "clamp(2.5rem, 8vw, 6.5rem))",
 					"slug": "50",
 					"name": "50"
 				},
 				{
-					"size": "clamp(4rem, 10vw, 8rem)",
+					"size": "clamp(4rem, 10vw, 7rem)",
 					"slug": "60",
 					"name": "60"
 				},
 				{
-					"size": "clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 10.096), 11rem)",
+					"size": "clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 9.096), 8rem)",
 					"slug": "70",
 					"name": "70"
 				},

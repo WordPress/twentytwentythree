@@ -3,7 +3,7 @@
  * Title: Call to action
  * Slug: twentytwentythree/cta
  * Categories: featured
- * Keywords: Call to action, signup, newsletter
+ * Keywords: Call to action
  * Block Types: core/buttons
  */
 ?>
@@ -12,7 +12,9 @@
 	<!-- wp:column -->
 	<div class="wp-block-column">
 		<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large"} -->
-		<p class="has-x-large-font-size" style="line-height:1.2">Got any book recommendations?</p>
+		<p class="has-x-large-font-size" style="line-height:1.2">
+		<?php esc_html_e( 'Got any book recommendations?', 'twentytwentythree' ); ?>
+		</p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons -->

@@ -218,10 +218,16 @@
 			],
 			"fontSizes": [
 				{
+					"fluid": {
+						"min": "0.875rem"
+					},
 					"size": "1rem",
 					"slug": "small"
 				},
 				{
+					"fluid": {
+						"min": "1rem"
+					},
 					"size": "1.125rem",
 					"slug": "medium"
 				},

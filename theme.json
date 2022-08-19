@@ -90,7 +90,7 @@
 					"name": "40"
 				},
 				{
-					"size": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",
+					"size": "clamp(2rem, 8vw, 6.5rem))",
 					"slug": "50",
 					"name": "50"
 				},
@@ -100,12 +100,12 @@
 					"name": "60"
 				},
 				{
-					"size": "clamp(5.25rem, 5.25rem + ((1vw - 0.48rem) * 10.096), 10.5rem)",
+					"size": "clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 10.096), 11rem)",
 					"slug": "70",
 					"name": "70"
 				},
 				{
-					"size": "clamp(7.5rem, 14vw, 12.5rem)",
+					"size": "clamp(7rem, 14vw, 11rem)",
 					"slug": "80",
 					"name": "80"
 				}

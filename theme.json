@@ -253,7 +253,12 @@
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline dashed"
+							}
+						},
+						":active": {
+							"typography": {
+								"textDecoration": "none"
 							}
 						},
 						"typography": {
@@ -323,12 +328,15 @@
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline dashed"
 							}
 						},
 						":active": {
+							"color": {
+								"text": "var(--wp--preset--color--secondary)"
+							},
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "none"
 							}
 						},
 						"typography": {
@@ -370,7 +378,15 @@
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline dashed"
+							}
+						},
+						":active": {
+							"color": {
+								"text": "var(--wp--preset--color--secondary)"
+							},
+							"typography": {
+								"textDecoration": "none"
 							}
 						},
 						"typography": {
@@ -473,10 +489,13 @@
 				},
 				":focus": {
 					"typography": {
-						"textDecoration": "none"
+						"textDecoration": "underline dashed"
 					}
 				},
 				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--secondary)"
+					},
 					"typography": {
 						"textDecoration": "none"
 					}

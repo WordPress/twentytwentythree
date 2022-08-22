@@ -312,6 +312,21 @@
 				},
 				"elements": {
 					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						":focus": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						":active": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
 						"typography": {
 							"textDecoration": "none"
 						}
@@ -452,12 +467,12 @@
 						"textDecoration": "none"
 					}
 				},
-				":active": {
+				":focus": {
 					"typography": {
 						"textDecoration": "none"
 					}
 				},
-				":focus": {
+				":active": {
 					"typography": {
 						"textDecoration": "none"
 					}

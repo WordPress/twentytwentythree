@@ -290,6 +290,7 @@
 			},
 			"core/post-date": {
 				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
 					"fontWeight": "400"
 				},
 				"elements": {

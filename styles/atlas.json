@@ -1,0 +1,120 @@
+{
+	"title": "Atlas",
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": ["#002635", "#e6e6dc"],
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"colors": ["#002635", "#ff5a67"],
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"colors": ["#002635", "#ffcc1b"],
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"colors": ["#002635", "#5dd7b9"],
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			],
+			"// gradients with CSS color level 5 support": "linear-gradient( 141deg, oklch( from var(--wp--preset--color--primary) calc( l * 0.8 ) calc( c * 0.95 ) calc( h + 0.05 ) ), var(--wp--preset--color--primary) 71%, oklch( from var(--wp--preset--color--primary) calc( ( ( l - 1 ) / ( -1 * l * l + l + 1 ) ) + 1 ) calc( c * 0.95 ) calc( h - 0.05 ) ) )",
+			"gradients": [
+				{
+					"gradient": "linear-gradient(141deg, #011c34, #002635 71%, #03404a)",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"gradient": "linear-gradient(141deg, #aeb7a2, #e6e6dc 71%, #eae7df)",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"gradient": "linear-gradient(141deg, #ce4513, #ff5a67 71%, #fd7ea6)",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"gradient": "linear-gradient(141deg, #afab10, #ffcc1b 71%, #fece94)",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"gradient": "linear-gradient(141deg, #41a7a4, #5dd7b9 71%, #7de0a6)",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			],
+			"palette": [
+				{
+					"color": "#002635",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#e6e6dc",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#ff5a67",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#ffcc1b",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#5dd7b9",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		},
+		"typography": {
+			"dropCap": true
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--dm-sans)"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--base)"
+				},
+				":hover": {
+					"color": {
+						"gradient": "var(--wp--preset--gradient--primary)",
+						"text": "var(--wp--preset--color--base)"
+					}
+				},
+				":focus": {
+					"color": {
+						"gradient": "var(--wp--preset--gradient--primary)",
+						"text": "var(--wp--preset--color--base)"
+					}
+				},
+				":active": {
+					"color": {
+						"background": "var(--wp--preset--color--contrast)",
+						"text": "var(--wp--preset--color--base)"
+					}
+				}
+			}
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json"
+}

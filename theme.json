@@ -449,13 +449,21 @@
 				},
 				":hover": {
 					"typography": {
-						"textDecoration": "underline dashed"
+						"textDecoration": "none"
 					}
 				},
 				":active": {
 					"typography": {
 						"textDecoration": "none"
 					}
+				},
+				":focus": {
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				"typography": {
+					"textDecoration": "underline"
 				}
 			}
 		},

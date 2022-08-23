@@ -95,7 +95,7 @@
 					"name": "50"
 				},
 				{
-					"size": "clamp(4rem, 10vw, 7rem)",
+					"size": "clamp(3.75rem, 10vw, 7rem)",
 					"slug": "60",
 					"name": "60"
 				},

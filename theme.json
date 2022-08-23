@@ -370,6 +370,13 @@
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "normal",
 					"lineHeight": "1.4"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
 				}
 			}
 		},

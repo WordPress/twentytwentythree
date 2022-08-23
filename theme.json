@@ -62,12 +62,40 @@
 		},
 		"spacing": {
 			"spacingScale": {
-				"operator": "+",
-				"increment": 0.5,
-				"steps": 9,
-				"mediumStep": 1.5,
-				"unit": "rem"
+				"steps": 0
 			},
+			"spacingSizes": [
+				{
+					"size": "clamp(1.5rem, 5vw, 2rem)",
+					"slug": "30",
+					"name": "30"
+				},
+				{
+					"size": "clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)",
+					"slug": "40",
+					"name": "40"
+				},
+				{
+					"size": "clamp(2.5rem, 8vw, 6.5rem))",
+					"slug": "50",
+					"name": "50"
+				},
+				{
+					"size": "clamp(3.75rem, 10vw, 7rem)",
+					"slug": "60",
+					"name": "60"
+				},
+				{
+					"size": "clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 9.096), 8rem)",
+					"slug": "70",
+					"name": "70"
+				},
+				{
+					"size": "clamp(7rem, 14vw, 11rem)",
+					"slug": "80",
+					"name": "80"
+				}
+			],
 			"units": [
 				"%",
 				"px",
@@ -87,18 +115,36 @@
 							"fontFamily": "DM Sans",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "200 900",
+							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/dm-sans/DMSans-Regular.ttf"
+								"file:./assets/fonts/dm-sans/DMSans-Regular.woff2"
 							]
 						},
 						{
 							"fontFamily": "DM Sans",
 							"fontStretch": "normal",
 							"fontStyle": "italic",
-							"fontWeight": "200 900",
+							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/dm-sans/DMSans-Italic.ttf"
+								"file:./assets/fonts/dm-sans/DMSans-Regular-Italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/dm-sans/DMSans-Bold.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/dm-sans/DMSans-Bold-Italic.woff2"
 							]
 						}
 					],
@@ -114,7 +160,9 @@
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "300",
-							"src": ["file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2"]
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2"
+							]
 						},
 						{
 							"fontDisplay": "block",
@@ -122,7 +170,9 @@
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2"]
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2"
+							]
 						},
 						{
 							"fontDisplay": "block",
@@ -130,7 +180,9 @@
 							"fontStretch": "normal",
 							"fontStyle": "italic",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2"]
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2"
+							]
 						},
 						{
 							"fontDisplay": "block",
@@ -138,7 +190,9 @@
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "700",
-							"src": ["file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2"]
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2"
+							]
 						}
 					],
 					"fontFamily": "'IBM Plex Mono', monospace",
@@ -178,10 +232,16 @@
 			],
 			"fontSizes": [
 				{
+					"fluid": {
+						"min": "0.875rem"
+					},
 					"size": "1rem",
 					"slug": "small"
 				},
 				{
+					"fluid": {
+						"min": "1rem"
+					},
 					"size": "1.125rem",
 					"slug": "medium"
 				},
@@ -224,8 +284,7 @@
 			},
 			"core/post-author": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
-					"fontStyle": "italic"
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/post-content": {
@@ -251,7 +310,6 @@
 			},
 			"core/post-date": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
 					"fontWeight": "400"
 				},
 				"elements": {
@@ -264,8 +322,7 @@
 			},
 			"core/post-terms": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
-					"fontStyle": "italic"
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/post-title": {
@@ -288,7 +345,8 @@
 			},
 			"core/query-pagination": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "400"
 				},
 				"elements": {
 					"link": {
@@ -306,7 +364,6 @@
 			"core/site-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontStyle": "italic",
 					"fontWeight": "normal",
 					"lineHeight": "1.4"
 				}
@@ -386,13 +443,12 @@
 			"heading": {
 				"typography": {
 					"fontWeight": "300",
-					"letterSpacing": "-0.02rem",
 					"lineHeight": "1.4"
 				}
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--foreground)"
+					"text": "var(--wp--preset--color--contrast)"
 				},
 				":hover": {
 					"typography": {

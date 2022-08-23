@@ -18,20 +18,6 @@
 			"title": "Blog (Alternative)"
 		},
 		{
-			"name": "single-no-separators",
-			"postTypes": [
-				"post"
-			],
-			"title": "Single Post (No Separators)"
-		},
-		{
-			"name": "page-no-separators",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page (No Separators)"
-		},
-		{
 			"name": "404",
 			"postTypes": [
 				"page"

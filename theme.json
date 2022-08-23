@@ -76,7 +76,7 @@
 					"name": "40"
 				},
 				{
-					"size": "clamp(2.5rem, 8vw, 6.5rem))",
+					"size": "clamp(2.5rem, 8vw, 6.5rem)",
 					"slug": "50",
 					"name": "50"
 				},

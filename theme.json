@@ -542,9 +542,9 @@
 		"spacing": {
 			"blockGap": "1.5rem",
 			"padding": {
-				"top": "0px",
+				"top": "var(--wp--preset--spacing--30)",
 				"right": "var(--wp--preset--spacing--30)",
-				"bottom": "0px",
+				"bottom": "var(--wp--preset--spacing--30)",
 				"left": "var(--wp--preset--spacing--30)"
 			}
 		},

@@ -267,7 +267,7 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/navigation-link": {
+			"core/navigation": {
 				"elements": {
 					"link": {
 						":hover": {
@@ -277,8 +277,16 @@
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline dashed"
 							}
+						},
+						":active": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
 						}
 					}
 				},
@@ -314,6 +322,7 @@
 			},
 			"core/post-date": {
 				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
 					"fontWeight": "400"
 				},
 				"elements": {
@@ -336,6 +345,24 @@
 				},
 				"elements": {
 					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						":focus": {
+							"typography": {
+								"textDecoration": "underline dashed"
+							}
+						},
+						":active": {
+							"color": {
+								"text": "var(--wp--preset--color--secondary)"
+							},
+							"typography": {
+								"textDecoration": "none"
+							}
+						},
 						"typography": {
 							"textDecoration": "none"
 						}
@@ -366,6 +393,31 @@
 				}
 			},
 			"core/site-title": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						":focus": {
+							"typography": {
+								"textDecoration": "underline dashed"
+							}
+						},
+						":active": {
+							"color": {
+								"text": "var(--wp--preset--color--secondary)"
+							},
+							"typography": {
+								"textDecoration": "none"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "normal",
@@ -463,13 +515,24 @@
 				},
 				":hover": {
 					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				":focus": {
+					"typography": {
 						"textDecoration": "underline dashed"
 					}
 				},
 				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--secondary)"
+					},
 					"typography": {
 						"textDecoration": "none"
 					}
+				},
+				"typography": {
+					"textDecoration": "underline"
 				}
 			}
 		},

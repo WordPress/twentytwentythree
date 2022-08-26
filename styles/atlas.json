@@ -24,7 +24,6 @@
 					"slug": "tertiary"
 				}
 			],
-			"// gradients with CSS color level 5 support": "linear-gradient( 141deg, oklch( from var(--wp--preset--color--primary) calc( l * 0.8 ) calc( c * 0.95 ) calc( h + 0.05 ) ), var(--wp--preset--color--primary) 71%, oklch( from var(--wp--preset--color--primary) calc( ( ( l - 1 ) / ( -1 * l * l + l + 1 ) ) + 1 ) calc( c * 0.95 ) calc( h - 0.05 ) ) )",
 			"gradients": [
 				{
 					"gradient": "linear-gradient(141deg, #011c34, #002635 71%, #03404a)",
@@ -196,7 +195,6 @@
 				}
 			},
 			"core/separator": {
-				"//": "Separator background doesn't seem to be supported in theme.json.",
 				"color": {
 					"background": "var(--wp--preset--color--contrast)"
 				}

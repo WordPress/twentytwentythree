@@ -336,6 +336,12 @@
 				}
 			},
 			"core/post-title": {
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--40)",
+						"top": "var(--wp--preset--spacing--40)"
+					}
+				},
 				"typography": {
 					"fontWeight": "400"
 				},
@@ -611,13 +617,12 @@
 			"h6": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "400",
 					"textTransform": "uppercase"
 				}
 			},
 			"heading": {
 				"typography": {
-					"fontWeight": "300",
+					"fontWeight": "400",
 					"lineHeight": "1.4"
 				}
 			},

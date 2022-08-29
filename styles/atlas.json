@@ -26,27 +26,27 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(141deg, #011c34, #002635 71%, #03404a)",
+					"gradient": "linear-gradient(141deg, #021524, #002635 71%, #1f3e47)",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"gradient": "linear-gradient(141deg, #aeb7a2, #e6e6dc 71%, #eae7df)",
+					"gradient": "linear-gradient(141deg, #9b9d96, #e6e6dc 71%, #ebe8e1)",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"gradient": "linear-gradient(141deg, #ce4513, #ff5a67 71%, #fd7ea6)",
+					"gradient": "linear-gradient(141deg, #b23926, #ff5a67 71%, #f97895)",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"gradient": "linear-gradient(141deg, #afab10, #ffcc1b 71%, #fece94)",
+					"gradient": "linear-gradient(141deg, #a19100, #ffcc1b 71%, #ffce74)",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"gradient": "linear-gradient(141deg, #41a7a4, #5dd7b9 71%, #7de0a6)",
+					"gradient": "linear-gradient(141deg, #289389, #5dd7b9 71%, #8cdab4)",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				}

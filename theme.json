@@ -699,6 +699,11 @@
 			"area": "uncategorized",
 			"name": "comments",
 			"title": "Comments"
+		},
+		{
+			"area": "uncategorized",
+			"name": "post-meta",
+			"title": "Post Meta"
 		}
 	]
 }

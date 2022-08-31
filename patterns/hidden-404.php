@@ -6,11 +6,11 @@
  */
 ?>
 
-<!-- wp:heading {"className":"has-text-align-center","fontSize":"xx-large"} -->
-<h2 class="has-text-align-center has-xx-large-font-size"><?php echo esc_html_x( '404', 'Error code for a webpage that is not found.', 'twentytwentythree' ); ?></h2>
+<!-- wp:heading {"className":"has-text-align-center"} -->
+<h2 class="has-text-align-center"><?php echo esc_html_x( '404', 'Error code for a webpage that is not found.', 'twentytwentythree' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
+<!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center"><?php echo esc_html_x( 'This page could not be found.', 'Message to convey that a webpage could not be found', 'twentytwentythree' ); ?></p>
 <!-- /wp:paragraph -->
 

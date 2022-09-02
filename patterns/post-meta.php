@@ -19,7 +19,7 @@
 		<div class="wp-block-column">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"1ch"}},"layout":{"type":"flex"}} -->
 			<div class="wp-block-group">
-				<!-- wp:paragraph --><p><?php echo esc_html_x( 'Posted', 'Verb to explain the publication status of a post', 'twentytwentythree' ); ?></p><!-- /wp:paragraph --><!-- wp:post-date {"format":"F j, Y"} /-->
+				<!-- wp:paragraph --><p><?php echo esc_html_x( 'Posted', 'Verb to explain the publication status of a post', 'twentytwentythree' ); ?></p><!-- /wp:paragraph --><!-- wp:post-date {"format":"<?php echo esc_html_x( 'F j, Y', 'Date format for publication date of post', 'twentytwentythree' ); ?>"} /-->
 				<!-- wp:paragraph --><p><?php echo esc_html_x( 'in', 'Preposition to show the relationship between the post and its categories', 'twentytwentythree' ); ?></p><!-- /wp:paragraph --><!-- wp:post-terms {"term":"category"} /-->
 			</div>
 			<!-- /wp:group -->

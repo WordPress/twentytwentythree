@@ -572,9 +572,6 @@
 					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--contrast)"
 				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
-				},
 				":hover": {
 					"color": {
 						"background": "var(--wp--preset--color--contrast)",

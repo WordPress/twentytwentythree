@@ -8,6 +8,8 @@ Twenty Twenty-Three is a stripped-back and minimal version of [Twenty Twenty-Two
 
 Just want to see a preview of what the theme currently looks like? Check out the [demo site](https://2023.wordpress.net).
 
+Please see the [design specification](https://github.com/WordPress/twentytwentythree/blob/trunk/DESIGN-SPEC.md) for more information about the default typography and spacing settings.
+
 ## Contributing
 
 If you would like to contribute code, the list of [open issues](https://github.com/WordPress/twentytwentythree/issues) is a great place to start looking for tasks. [Pull requests](https://github.com/WordPress/twentytwentythree/pulls) are preferred when linked to an existing issue.

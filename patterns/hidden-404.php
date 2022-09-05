@@ -5,9 +5,8 @@
  * Inserter: no
  */
 ?>
-
-<!-- wp:heading {"className":"has-text-align-center"} -->
-<h2 class="has-text-align-center"><?php echo esc_html_x( '404', 'Error code for a webpage that is not found.', 'twentytwentythree' ); ?></h2>
+<!-- wp:heading {"level":1,"className":"has-text-align-center"} -->
+<h1 class="has-text-align-center"><?php echo esc_html_x( '404', 'Error code for a webpage that is not found.', 'twentytwentythree' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->

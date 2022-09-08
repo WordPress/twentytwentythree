@@ -6,6 +6,8 @@ Welcome to the development repository for the default theme that will launch wit
 
 Twenty Twenty-Three is a stripped-back and minimal version of [Twenty Twenty-Two](https://wordpress.org/themes/twentytwentytwo/), and will include a diverse collection of style variations designed by members of the community.
 
+Just want to see a preview of what the theme currently looks like? Check out the [demo site](https://2023.wordpress.net).
+
 Please see the [design specification](https://github.com/WordPress/twentytwentythree/blob/trunk/DESIGN-SPEC.md) for more information about the default typography and spacing settings.
 
 ## Contributing

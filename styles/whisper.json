@@ -83,7 +83,7 @@
 		"blocks": {
 			"core/navigation": {
 				"color": {
-					"text": "var(--wp--preset--color--secondary)"
+					"text": "var(--wp--preset--color--contrast)"
 				},
 				"elements": {
 					"link": {
@@ -95,7 +95,7 @@
 							}
 						},
 						"color": {
-							"text": "var(--wp--preset--color--secondary)"
+							"text": "var(--wp--preset--color--contrast)"
 						},
 						":hover": {
 							"border": {
@@ -103,7 +103,7 @@
 							},
 							"color": {
 								"background": "transparent",
-								"text": "var(--wp--preset--color--contrast)"
+								"text": "var(--wp--preset--color--secondary)"
 							},
 							"typography": {
 								"textDecoration": "none"

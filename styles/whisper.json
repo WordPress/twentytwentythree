@@ -176,16 +176,22 @@
 			},
 			"core/pullquote": {
 				"border": {
-					"color": "var(--wp--preset--color--primary)",
+					"color": "var(--wp--preset--color--contrast)",
 					"style": "double",
 					"width": "6px"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--secondary)"
 				}
 			},
 			"core/quote": {
 				"border": {
-					"color": "var(--wp--preset--color--primary)",
+					"color": "var(--wp--preset--color--contrast)",
 					"style": "double",
 					"width": "0 0 0 6px"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--secondary)"
 				},
 				"spacing": {
 					"margin": {

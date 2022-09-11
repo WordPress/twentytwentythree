@@ -4,6 +4,18 @@
 	"title": "Variation Sherbet",
 	"settings": {
 		"color": {
+			"duotone": [
+				{
+					"colors": [
+						"rgb(81, 82, 213)",
+						"rgb(121, 238, 196)",
+						"rgb(236, 249, 87)",
+						"rgb(247, 69, 204)"
+					],
+					"name": "Default filter",
+					"slug": "default-filter"
+				}
+			],
 			"gradients": [
 				{
 					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--secondary) 50%, var(--wp--preset--color--tertiary) 100%)",
@@ -144,13 +156,13 @@
 		"blocks": {
 			"core/heading": {
 				"typography": {
-					"fontWeight": "700"
+					"fontWeight": "500"
 				}
 			},
 			"core/navigation": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"fontWeight": "700",
+					"fontWeight": "500",
 					"textTransform": "uppercase"
 				}
 			},
@@ -165,18 +177,19 @@
 			},
 			"core/post-title": {
 				"typography": {
-					"fontWeight": "700"
+					"fontWeight": "500",
+					"textTransform": "uppercase"
 				}
 			},
 			"core/site-title": {
 				"typography": {
-					"fontWeight": "700"
+					"fontWeight": "500"
 				}
 			},
 			"core/template-part": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"fontWeight": "700",
+					"fontWeight": "400",
 					"textTransform": "uppercase"
 				}
 			}
@@ -192,44 +205,44 @@
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"fontWeight": "700",
+					"fontWeight": "400",
 					"textTransform": "uppercase"
 				}
 			},
 			"h1": {
 				"typography": {
-					"fontWeight": "700"
+					"fontWeight": "500"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontWeight": "700"
+					"fontWeight": "500"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontWeight": "700"
+					"fontWeight": "500"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontWeight": "700"
+					"fontWeight": "500"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontWeight": "700"
+					"fontWeight": "500"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontWeight": "700"
+					"fontWeight": "500"
 				}
 			}
 		},
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--small)",
-			"fontFamily": "var(--wp--preset--font-family--dm-sans)"
+			"fontFamily": "var(--wp--preset--font-family--body)"
 		}
 	}
 }

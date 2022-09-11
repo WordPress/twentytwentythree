@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Summer Night",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#262D4C",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#FF9CDD",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#FFA689",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#FFDD5A",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/separator": {
+				"border": {
+					"width": "4px"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--dm-sans)"
+		}
+	}
+}

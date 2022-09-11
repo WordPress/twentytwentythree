@@ -39,10 +39,6 @@
 				}
 			]
 		},
-		"layout": {
-			"contentSize": "70vw",
-			"wideSize": "80vw"
-		},
 		"typography": {
 			"fontFamilies": [
 				{

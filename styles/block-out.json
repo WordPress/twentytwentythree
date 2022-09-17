@@ -84,6 +84,11 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/avatar": {
+				"filter": {
+					"duotone": "var(--wp--preset--duotone--default-filter)"
+				}
+			},
 			"core/image": {
 				"border": {
 					"radius": "8px"
@@ -110,6 +115,11 @@
 			"core/search": {
 				"border": {
 					"radius": "8px"
+				}
+			},
+			"core/site-logo": {
+				"filter": {
+					"duotone": "var(--wp--preset--duotone--default-filter)"
 				}
 			},
 			"core/site-title": {

@@ -72,33 +72,33 @@
 	  "spacingSizes": [
 		{
 		  "size": "clamp(0.625rem, 0.434rem + 0.61vw, 0.938rem)",
-		  "name": "Small",
-		  "slug": "small"
+		  "name": "30",
+		  "slug": "30"
 		},
 		{
 		  "size": "clamp(1.25rem, 0.869rem + 1.22vw, 1.875rem)",
-		  "name": "Default",
-		  "slug": "default"
+		  "name": "40",
+		  "slug": "40"
 		},
 		{
 		  "size": "clamp(1.875rem, 1.303rem + 1.83vw, 2.813rem)",
-		  "name": "Medium",
-		  "slug": "medium"
+		  "name": "50",
+		  "slug": "50"
 		},
 		{
 		  "size": "clamp(2.5rem, 1.738rem + 2.44vw, 3.75rem)",
-		  "name": "Large",
-		  "slug": "large"
+		  "name": "60",
+		  "slug": "60"
 		},
 		{
 		  "size": "clamp(2.813rem, 1.098rem + 5.49vw, 5.625rem)",
-		  "name": "X-large",
-		  "slug": "x-large"
+		  "name": "70",
+		  "slug": "70"
 		},
 		{
 		  "size": "clamp(3.75rem, 1.463rem + 7.32vw, 7.5rem)",
-		  "name": "Huge",
-		  "slug": "huge"
+		  "name": "80",
+		  "slug": "80"
 		}
 	  ]
 	},

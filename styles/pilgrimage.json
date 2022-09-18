@@ -12,6 +12,11 @@
 					"gradient": "linear-gradient(180deg, var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--primary) 100%)",
 					"name": "Secondary to Primary",
 					"slug": "secondary-primary"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--base) 0%,var(--wp--preset--color--primary) 350%)",
+					"name": "Base to Primary",
+					"slug": "base-primary"
 				}
 			],
 			"palette": [
@@ -185,6 +190,9 @@
 					}
 				}
 			}
+		},
+		"color": {
+			"gradient": "var(--wp--preset--gradient--base-primary)"
 		},
 		"elements": {
 			"button": {

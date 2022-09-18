@@ -40,7 +40,8 @@
 					"slug": "tertiary"
 				}
 			]
-		},
+		}
+	},
 	"styles": {
 		"blocks": {
 			"core/comment-author-name": {
@@ -50,7 +51,6 @@
 							"color": {
 								"text": "var(--wp--preset--color--primary)"
 							}
-							
 						}
 					}
 				}
@@ -108,7 +108,7 @@
 			},
 			"core/paragraph": {
 				"color": {
-					"text": "var:preset|color|contrast"
+					"text": "var(--wp--preset--color--contrast)"
 				},
 				"elements": {
 					"link": {
@@ -118,7 +118,7 @@
 							}
 						},
 						"color": {
-							"text": "var:preset|color|primary"
+							"text": "var(--wp--preset--color--primary)"
 						}
 					}
 				}
@@ -170,7 +170,7 @@
 			},
 			"core/separator": {
 				"color": {
-					"background": "var:preset|color|primary"
+					"background": "var(--wp--preset--color--primary)"
 				}
 			},
 			"core/site-title": {
@@ -257,12 +257,11 @@
 					}
 				},
 				"color": {
-					"text": "var:preset|color|primary"
+					"text": "var(--wp--preset--color--primary)"
 				}
 			}
 		}
 	},
 	"version": 2,
 	"$schema": "https://schemas.wp.org/trunk/theme.json"
-	}
 }

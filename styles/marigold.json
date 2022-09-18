@@ -1,32 +1,7 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "title": "Marigold",
-  "customTemplates": [
-	{
-	  "name": "blank",
-	  "postTypes": [
-		"page",
-		"post"
-	  ],
-	  "title": "Blank"
-	},
-	{
-	  "name": "blog-alternative",
-	  "postTypes": [
-		"page"
-	  ],
-	  "title": "Blog (Alternative)"
-	},
-	{
-	  "name": "404",
-	  "postTypes": [
-		"page"
-	  ],
-	  "title": "404"
-	}
-  ],
   "settings": {
-	"appearanceTools": true,
 	"color": {
 	  "palette": [
 		{
@@ -57,18 +32,9 @@
 	  ]
 	},
 	"layout": {
-	  "contentSize": "650px",
 	  "wideSize": "1200px"
 	},
 	"spacing": {
-	  "units": [
-		"%",
-		"px",
-		"em",
-		"rem",
-		"vh",
-		"vw"
-	  ],
 	  "spacingSizes": [
 		{
 		  "size": "clamp(0.625rem, 0.434rem + 0.61vw, 0.938rem)",
@@ -103,129 +69,6 @@
 	  ]
 	},
 	"typography": {
-	  "dropCap": false,
-	  "fontFamilies": [
-		{
-		  "fontFace": [
-			{
-			  "fontFamily": "DM Sans",
-			  "fontStretch": "normal",
-			  "fontStyle": "normal",
-			  "fontWeight": "400",
-			  "src": [
-				"file:./assets/fonts/dm-sans/DMSans-Regular.woff2"
-			  ]
-			},
-			{
-			  "fontFamily": "DM Sans",
-			  "fontStretch": "normal",
-			  "fontStyle": "italic",
-			  "fontWeight": "400",
-			  "src": [
-				"file:./assets/fonts/dm-sans/DMSans-Regular-Italic.woff2"
-			  ]
-			},
-			{
-			  "fontFamily": "DM Sans",
-			  "fontStretch": "normal",
-			  "fontStyle": "normal",
-			  "fontWeight": "700",
-			  "src": [
-				"file:./assets/fonts/dm-sans/DMSans-Bold.woff2"
-			  ]
-			},
-			{
-			  "fontFamily": "DM Sans",
-			  "fontStretch": "normal",
-			  "fontStyle": "italic",
-			  "fontWeight": "700",
-			  "src": [
-				"file:./assets/fonts/dm-sans/DMSans-Bold-Italic.woff2"
-			  ]
-			}
-		  ],
-		  "fontFamily": "\"DM Sans\", sans-serif",
-		  "name": "DM Sans",
-		  "slug": "dm-sans"
-		},
-		{
-		  "fontFace": [
-			{
-			  "fontDisplay": "block",
-			  "fontFamily": "IBM Plex Mono",
-			  "fontStretch": "normal",
-			  "fontStyle": "normal",
-			  "fontWeight": "300",
-			  "src": [
-				"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2"
-			  ]
-			},
-			{
-			  "fontDisplay": "block",
-			  "fontFamily": "IBM Plex Mono",
-			  "fontStretch": "normal",
-			  "fontStyle": "normal",
-			  "fontWeight": "400",
-			  "src": [
-				"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2"
-			  ]
-			},
-			{
-			  "fontDisplay": "block",
-			  "fontFamily": "IBM Plex Mono",
-			  "fontStretch": "normal",
-			  "fontStyle": "italic",
-			  "fontWeight": "400",
-			  "src": [
-				"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2"
-			  ]
-			},
-			{
-			  "fontDisplay": "block",
-			  "fontFamily": "IBM Plex Mono",
-			  "fontStretch": "normal",
-			  "fontStyle": "normal",
-			  "fontWeight": "700",
-			  "src": [
-				"file:./assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2"
-			  ]
-			}
-		  ],
-		  "fontFamily": "'IBM Plex Mono', monospace",
-		  "name": "IBM Plex Mono",
-		  "slug": "ibm-plex-mono"
-		},
-		{
-		  "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
-		  "name": "System Font",
-		  "slug": "system-font"
-		},
-		{
-		  "fontFace": [
-			{
-			  "fontFamily": "Source Serif Pro",
-			  "fontStretch": "normal",
-			  "fontStyle": "normal",
-			  "fontWeight": "200 900",
-			  "src": [
-				"file:./assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2"
-			  ]
-			},
-			{
-			  "fontFamily": "Source Serif Pro",
-			  "fontStretch": "normal",
-			  "fontStyle": "italic",
-			  "fontWeight": "200 900",
-			  "src": [
-				"file:./assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2"
-			  ]
-			}
-		  ],
-		  "fontFamily": "\"Source Serif Pro\", serif",
-		  "name": "Source Serif Pro",
-		  "slug": "source-serif-pro"
-		}
-	  ],
 	  "fontSizes": [
 		{
 		  "size": "clamp(0.875rem, 0.799rem + 0.24vw, 1rem)",
@@ -268,101 +111,16 @@
 		  "slug": "gigantic"
 		}
 	  ]
-	},
-	"useRootPaddingAwareAlignments": true
+	}
   },
   "styles": {
 	"blocks": {
-	  "core/comment-author-name": {
-		"elements": {
-		  "link": {
-			"typography": {
-			  "textDecoration": "none"
-			}
-		  }
-		}
-	  },
-	  "core/comment-date": {
-		"elements": {
-		  "link": {
-			"typography": {
-			  "textDecoration": "none"
-			}
-		  }
-		},
-		"typography": {
-		  "fontSize": "var(--wp--preset--font-size--small)"
-		}
-	  },
-	  "core/comment-edit-link": {
-		"elements": {
-		  "link": {
-			"typography": {
-			  "textDecoration": "none"
-			}
-		  }
-		},
-		"typography": {
-		  "fontSize": "var(--wp--preset--font-size--small)"
-		}
-	  },
-	  "core/comment-reply-link": {
-		"typography": {
-		  "fontSize": "var(--wp--preset--font-size--small)"
-		}
-	  },
-	  "core/comments-pagination": {
-		"elements": {
-		  "link": {
-			"typography": {
-			  "textDecoration": "none"
-			}
-		  }
-		},
-		"spacing": {
-		  "margin": {
-			"top": "var(--wp--preset--spacing--medium)"
-		  }
-		}
-	  },
-	  "core/comments-title": {
-		"spacing": {
-		  "margin": {
-			"bottom": "var(--wp--preset--spacing--medium)"
-		  }
-		},
-		"typography": {
-		  "fontSize": "var(--wp--preset--font-size--large)"
-		}
-	  },
-	  "core/navigation": {
-		"elements": {
-		  "link": {
-			"typography": {
-			  "textDecoration": "none"
-			}
-		  }
-		},
-		"typography": {
-		  "fontSize": "var(--wp--preset--font-size--small)"
-		}
-	  },
-      "core/paragraph": {
-        "typography": {
-            "fontFamily": "var(--wp--preset--font-family--source-serif-pro)"
-        }   
-      },
 	  "core/query": {
 		"spacing": {
 		  "padding": {
 			"left": "0",
 			"right": "0"
 		  }
-		}
-	  },
-	  "core/post-author": {
-		"typography": {
-		  "fontSize": "var(--wp--preset--font-size--small)"
 		}
 	  },
 	  "core/post-content": {
@@ -374,27 +132,9 @@
 		  }
 		}
 	  },
-	  "core/post-date": {
-		"elements": {
-		  "link": {
-			"typography": {
-			  "textDecoration": "none"
-			}
-		  }
-		},
-		"typography": {
-		  "fontSize": "var(--wp--preset--font-size--small)",
-		  "fontWeight": "400"
-		}
-	  },
 	  "core/post-excerpt": {
 		"typography": {
 		  "fontSize": "var(--wp--preset--font-size--normal)"
-		}
-	  },
-	  "core/post-terms": {
-		"typography": {
-		  "fontSize": "var(--wp--preset--font-size--small)"
 		}
 	  },
 	  "core/post-title": {
@@ -416,8 +156,8 @@
 		},
 		"spacing": {
 		  "margin": {
-			"bottom": "var(--wp--preset--spacing--medium)",
-			"top": "var(--wp--preset--spacing--medium)"
+			"bottom": "var(--wp--preset--spacing--50)",
+			"top": "var(--wp--preset--spacing--50)"
 		  }
 		},
 		"typography": {
@@ -446,16 +186,12 @@
 		"elements": {
 		  "cite": {
 			"typography": {
-			  "fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
-			  "fontSize": "20px"
+			  "fontSize": "1.25rem"
 			}
 		  }
 		},
-		"border": {
-		  "width": "1px"
-		},
 		"typography": {
-		  "fontSize": "26px",
+		  "fontSize": "1.625rem",
 		  "lineHeight": "1.5"
 		}
 	  },
@@ -463,21 +199,11 @@
 		"elements": {
 		  "link": {
 			"typography": {
-			  "fontSize": "var(--wp--preset--font-size--normal)",
-			  "textDecoration": "none"
+			  "fontSize": "var(--wp--preset--font-size--normal)"
 			}
 		  }
-		},
-		"typography": {
-		  "fontSize": "var(--wp--preset--font-size--medium)",
-		  "fontWeight": "normal",
-		  "lineHeight": "1.4"
 		}
 	  }
-	},
-	"color": {
-	  "background": "var(--wp--preset--color--base)",
-	  "text": "var(--wp--preset--color--contrast)"
 	},
 	"elements": {
 	  "h1": {
@@ -487,7 +213,7 @@
 		}
 	  },
 	  "h2": {
-		"typography": { 
+		"typography": {
 		  "fontSize": "var(--wp--preset--font-size--xx-large)",
 		  "lineHeight": "1.2"
 		}
@@ -506,7 +232,6 @@
 	  },
 	  "h5": {
 		"typography": {
-          "fontSize": "var(--wp--preset--font-size--medium)",
 		  "fontStyle": "normal",
 		  "fontWeight": "600",
 		  "textTransform": "none"
@@ -514,28 +239,17 @@
 	  },
 	  "h6": {
 		"typography": {
-
           "fontSize": "var(--wp--preset--font-size--normal)",
 		  "fontStyle": "normal",
-		  "fontWeight": "600",
-		  "textTransform": "uppercase"
+		  "fontWeight": "600"
 		}
 	  },
 	  "heading": {
 		"typography": {
-		  "fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
-		  "fontStyle": "italic",
-		  "fontWeight": "400",
-		  "lineHeight": "1.4"
+		  "fontStyle": "italic"
 		}
 	  },
 	  "link": {
-		"color": {
-		  "text": "var(--wp--preset--color--contrast)"
-		},
-		"typography": {
-		  "textDecoration": "underline"
-		},
 		":hover": {
 		  "typography": {
 			"textDecoration": "none"
@@ -547,13 +261,11 @@
 		  "radius": "50px"
 		},
 		"color": {
-		  "background": "var(--wp--preset--color--secondary)",
-		  "text":"var(--wp--preset--color--contrast)"
+		  "background": "var(--wp--preset--color--secondary)"
 		},
 		"typography": {
 		  "fontSize": "var(--wp--preset--font-size--normal)"
 		},
-
 		":hover": {
 		  "color": {
 			"background": "var(--wp--preset--color--tertiary)"
@@ -561,14 +273,12 @@
 		},
 		":focus": {
 		  "color": {
-			"background": "var(--wp--preset--color--primary)",
-			"text": "var(--wp--preset--color--base)"
+			"background": "var(--wp--preset--color--primary)"
 		  }
 		},
 		":active": {
 		  "color": {
-			"background": "var(--wp--preset--color--primary)",
-			"text": "var(--wp--preset--color--base)"
+			"background": "var(--wp--preset--color--primary)"
 		  }
 		}
 	  }
@@ -576,10 +286,10 @@
 	"spacing": {
 	  "blockGap": "2.5rem",
 	  "padding": {
-		"bottom": "var(--wp--preset--spacing--medium)",
-		"left": "var(--wp--preset--spacing--default)",
-		"right": "var(--wp--preset--spacing--default)",
-		"top": "var(--wp--preset--spacing--medium)"
+		"bottom": "var(--wp--preset--spacing--50)",
+		"left": "var(--wp--preset--spacing--40)",
+		"right": "var(--wp--preset--spacing--40)",
+		"top": "var(--wp--preset--spacing--50)"
 	  }
 	},
 	"typography": {
@@ -588,22 +298,5 @@
 	  "lineHeight": "1.5"
 	}
   },
-  "templateParts": [
-	{
-	  "area": "header",
-	  "name": "header",
-	  "title": "Header"
-	},
-	{
-	  "area": "footer",
-	  "name": "footer",
-	  "title": "Footer"
-	},
-	{
-	  "area": "uncategorized",
-	  "name": "comments",
-	  "title": "Comments"
-	}
-  ],
   "version": 2
 }

@@ -195,19 +195,19 @@
 				},
 				":focus": {
 					"color": {
-						"background": "var(--wp--preset--gradient--secondary-primary)"
+						"gradient": "var(--wp--preset--gradient--secondary-primary)"
 					}
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--gradient--secondary-primary)"
+						"gradient": "var(--wp--preset--gradient--secondary-primary)"
 					}
 				},
 				"border": {
 					"radius": "5px"
 				},
 				"color": {
-					"background": "var(--wp--preset--gradient--primary-secondary)",
+					"gradient": "var(--wp--preset--gradient--primary-secondary)",
 					"text": "var(--wp--preset--color--base)"
 				}
 			},

@@ -293,7 +293,7 @@
 	  }
 	},
 	"typography": {
-	  "fontFamily": "var(--wp--preset--font-family--dm-sans)",
+	  "fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
 	  "fontSize": "var(--wp--preset--font-size--normal)",
 	  "lineHeight": "1.5"
 	}

@@ -2,6 +2,16 @@
 	"title": "Pilgrimage",
 	"settings": {
 		"color": {
+			"duotone": [
+				{
+					"colors": [
+						"#222828",
+						"#9EF9FD"
+					],
+					"slug": "default-filter",
+					"name": "Default filter"
+				}
+			],
 			"gradients": [
 				{
 					"gradient": "linear-gradient(180deg, var(--wp--preset--color--primary) 0%,var(--wp--preset--color--secondary) 100%)",
@@ -93,6 +103,11 @@
 							"textDecoration": "underline"
 						}
 					}
+				}
+			},
+			"core/image": {
+				"filter": {
+					"duotone": "var(--wp--preset--duotone--default-filter)"
 				}
 			},
 			"core/navigation": {

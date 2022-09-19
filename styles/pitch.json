@@ -234,9 +234,7 @@
 		"spacing": {
 			"blockGap": "var(--wp--preset--spacing--40)",
 			"padding": {
-				"top": "0px",
 				"right": "var(--wp--preset--spacing--70)",
-				"bottom": "0px",
 				"left": "var(--wp--preset--spacing--70)"
 			}
 		},

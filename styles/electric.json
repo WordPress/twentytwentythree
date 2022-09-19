@@ -49,6 +49,18 @@
 						"text": "var(--wp--preset--color--contrast)"
 					}
 				}
+			},
+			"link": {
+				":focus": {
+					"typography": {
+						"textDecoration": "underline dotted"
+					}
+				},
+				":active": {
+					"typography": {
+						"textDecoration": "underline dotted"
+					}
+				}
 			}
 		},
 		"typography": {

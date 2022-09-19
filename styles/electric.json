@@ -32,6 +32,25 @@
 		}
 	},
 	"styles": {
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--contrast)",
+					"text": "var(--wp--preset--color--base)"
+				},
+				":hover": {
+					"border": {
+						"color": "var(--wp--preset--color--contrast)",
+						"style": "solid",
+						"width": "1px"
+					},
+					"color": {
+						"background": "var(--wp--preset--color--base)",
+						"text": "var(--wp--preset--color--contrast)"
+					}
+				}
+			}
+		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--dm-sans)"
 		}

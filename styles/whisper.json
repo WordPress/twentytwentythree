@@ -432,6 +432,11 @@
 				}
 			}
 		},
+		"border": {
+			"color": "var(--wp--preset--color--tertiary)",
+			"style": "solid",
+			"width": "max(1vw, 0.5rem)"
+		},
 		"spacing": {
 			"padding": {
 				"top": "var(--wp--preset--spacing--40)",

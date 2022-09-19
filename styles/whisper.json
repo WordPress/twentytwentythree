@@ -435,7 +435,7 @@
 		"border": {
 			"color": "var(--wp--preset--color--tertiary)",
 			"style": "solid",
-			"width": "1vh 1vw"
+			"width": "max(1vw, 0.5rem)"
 		},
 		"spacing": {
 			"padding": {

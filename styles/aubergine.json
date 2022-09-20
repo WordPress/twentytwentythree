@@ -16,7 +16,7 @@
 			],
 			"palette": [
 				{
-					"color": "#1A1030",
+					"color": "#1B1031",
 					"name": "Base",
 					"slug": "base"
 				},
@@ -26,12 +26,12 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#FF5E56",
+					"color": "#FF746D",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#5E2967",
+					"color": "#551C5E",
 					"name": "Secondary",
 					"slug": "secondary"
 				},

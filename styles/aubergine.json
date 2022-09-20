@@ -1,0 +1,41 @@
+{
+	"title": "Aubergine",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#1A1030",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#FF5E56",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#5E2967",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#FB326B",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--dm-sans)"
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json"
+}

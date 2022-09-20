@@ -9,6 +9,11 @@
 					"slug": "secondary-base"
 				},
 				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--base) 0 10%, var(--wp--preset--color--secondary) 0% 30%, var(--wp--preset--color--base) 100%)",
+					"name": "Base to Secondary to Base",
+					"slug": "base-secondary-base"
+				},
+				{
 					"gradient": "linear-gradient(90deg, var(--wp--preset--color--tertiary) 5.74%, var(--wp--preset--color--primary) 100%);",
 					"name": "Tertiary to Primary",
 					"slug": "tertiary-primary"
@@ -204,7 +209,7 @@
 			}
 		},
 		"color": {
-			"gradient": "var(--wp--preset--gradient--secondary-base)"
+			"gradient": "var(--wp--preset--gradient--base-secondary-base)"
 		},
 		"elements": {
 			"button": {

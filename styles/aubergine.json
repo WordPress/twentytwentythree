@@ -165,9 +165,6 @@
 				}
 			},
 			"core/separator": {
-				"border": {
-					"width": "2px"
-				},
 				"color": {
 					"text": "var(--wp--preset--color--primary)"
 				}

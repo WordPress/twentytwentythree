@@ -197,6 +197,9 @@
 							}
 						}
 					}
+				},
+				"typography": {
+					"letterSpacing": "0.09rem"
 				}
 			}
 		},
@@ -229,6 +232,11 @@
 						"gradient": "var(--wp--preset--gradient--primary-tertiary)",
 						"text": "var(--wp--preset--color--contrast)"
 					}
+				}
+			},
+			"heading": {
+				"typography": {
+					"letterSpacing": "-0.019rem"
 				}
 			},
 			"link": {

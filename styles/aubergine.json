@@ -47,6 +47,24 @@
 		"color": {
 			"gradient": "var(--wp--preset--gradient--secondary-base)"
 		},
+		"elements": {
+			"button": {
+				"border": {
+					"radius": "99999px"
+				},
+				"color": {
+					"gradient": "var(--wp--preset--gradient--tertiary-primary)",
+					"text": "var(--wp--preset--color--base)"
+				}
+			},
+			"link": {
+				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--tertiary)"
+					}
+				}
+			}
+		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--dm-sans)"
 		}

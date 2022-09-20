@@ -46,6 +46,44 @@
 					"slug": "tertiary"
 				}
 			]
+		},
+		"typography": {
+			"fontSizes": [
+				{
+					"fluid": {
+						"min": "0.875rem",
+						"max": "1rem"
+					},
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"min": "1rem",
+						"max": "1.125rem"
+					},
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"size": "1.75rem",
+					"slug": "large",
+					"fluid": false
+				},
+				{
+					"size": "3.25rem",
+					"slug": "x-large",
+					"fluid": false
+				},
+				{
+					"size": "10rem",
+					"slug": "xx-large",
+					"fluid": {
+						"min": "4rem",
+						"max": "20rem"
+					}
+				}
+			]
 		}
 	},
 	"styles": {

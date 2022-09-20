@@ -7,11 +7,11 @@
 | @audrasjb | @audrasjb |
 | @beafialho | @beafialho |
 | @bgardner | @bgardner |
-| @bobmatyas | |
+| @bobmatyas | @lastsplash |
 | @carolinan | @poena |
 | @colorful-tones | @colorful-tones |
 | @critterverse | @critterverse |
-| @Dabalina | |
+| @Dabalina | @dll416 |
 | @DaisyOlsen | @daisyo |
 | @dianeco | @dianeco |
 | @hiyascout | |

@@ -8,12 +8,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-
+Twenty Twenty-Three is a stripped-back and minimal base theme, and includes a diverse collection of style variations designed by members of the community.
 
 == Changelog ==
 
-= 0.0.1 =
-* Initial release
+= 1.0 =
+* Released: November 1, 2022
+
+https://wordpress.org/support/article/twenty-twenty-three-changelog#Version_1.0
 
 == Copyright ==
 

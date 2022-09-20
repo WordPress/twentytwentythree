@@ -13,13 +13,14 @@
 | @critterverse | @critterverse |
 | @Dabalina | @dll416 |
 | @DaisyOlsen | @daisyo |
+| @desrosj | @desrosj |
 | @dianeco | @dianeco |
-| @hiyascout | |
+| @hiyascout | @hiyascout |
 | @jasmussen | @joen |
 | @jffng | @jffng |
 | @justintadlock | @greenshady |
 | @kafleg | @kafleg |
-| @kathryncodes | |
+| @kathryncodes | @kathryncodes |
 | @kishanjasani | @kishanjasani |
 | @kraftbj | @kraftbj |
 | @luminuu | @luminuu |
@@ -27,11 +28,12 @@
 | @MaggieCabrera | @onemaggie |
 | @mikachan | @mikachan |
 | @mtias | @mtias |
-| @nudgeD | |
+| @nudgeD | @nudge |
 | @pbking | @pbking |
+| @RahiDroid | @rahidroid |
 | @richtabor | @richtabor |
 | @scruffian | @scruffian |
 | @Soean | @soean |
 | @tanvirulhaque | @tanvirul |
 | @thelovekesh | @thelovekesh |
-| @WBerredo | |
+| @WBerredo | @wberredo |

@@ -1,5 +1,5 @@
 {
-	"title": "Block-out",
+	"title": "Block out",
 	"settings": {
 		"color": {
 			"duotone": [
@@ -116,6 +116,11 @@
 					"radius": "8px"
 				}
 			},
+			"core/post-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)"
+				}
+			},
 			"core/quote": {
 				"border": {
 					"width": "1px"
@@ -133,7 +138,8 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-large)"
+					"fontSize": "var(--wp--preset--font-size--xx-large)",
+					"lineHeight": "1.1"
 				}
 			}
 		},

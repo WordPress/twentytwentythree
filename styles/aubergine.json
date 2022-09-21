@@ -206,7 +206,7 @@
 			}
 		},
 		"color": {
-			"gradient": "var(--wp--preset--gradient--base-secondary-base)"
+			"gradient": "var(--wp--preset--gradient--base-secondary-base) no-repeat"
 		},
 		"elements": {
 			"button": {

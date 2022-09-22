@@ -105,6 +105,11 @@
 					}
 				}
 			},
+			"core/group": {
+				"border": {
+					"color": "var(--wp--preset--color--primary)"
+				}
+			},
 			"core/navigation": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)"

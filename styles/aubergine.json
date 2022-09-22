@@ -138,6 +138,7 @@
 			},
 			"core/post-date": {
 				"typography": {
+					"letterSpacing": "0.09rem",
 					"textTransform": "uppercase"
 				}
 			},

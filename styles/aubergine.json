@@ -162,19 +162,26 @@
 				}
 			},
 			"core/post-title": {
+				"typography": {
+					"fontSize": "clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem)"
+				}
+			},
+			"core/query": {
 				"elements": {
+					"h3": {
+						"color": {
+							"text": "var(--wp--preset--color--primary)"
+						},
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--large)",
+							"fontWeight": "700"
+						}
+					},
 					"link": {
 						"color": {
 							"text": "var(--wp--preset--color--primary)"
 						}
 					}
-				},
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)",
-					"fontWeight": "700"
 				}
 			},
 			"core/separator": {

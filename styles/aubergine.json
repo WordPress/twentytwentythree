@@ -206,7 +206,8 @@
 					}
 				},
 				"typography": {
-					"letterSpacing": "0.09rem"
+					"letterSpacing": "0.09rem",
+					"textTransform": "uppercase"
 				}
 			}
 		},

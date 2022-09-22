@@ -137,9 +137,16 @@
 				}
 			},
 			"core/post-date": {
-				"typography": {
-					"letterSpacing": "0.09rem",
-					"textTransform": "uppercase"
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--contrast)"
+						},
+						"typography": {
+							"letterSpacing": "0.09rem",
+							"textTransform": "uppercase"
+						}
+					}
 				}
 			},
 			"core/post-terms": {

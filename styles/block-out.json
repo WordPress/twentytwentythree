@@ -108,6 +108,11 @@
 						"color": {
 							"text": "var(--wp--preset--color--contrast)"
 						}
+					},
+					"h1": {
+						"color": {
+							"text": "var(--wp--preset--color--contrast)"
+						}
 					}
 				}
 			},
@@ -165,6 +170,11 @@
 					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)",
 					"fontStyle": "italic",
 					"fontWeight": "400"
+				}
+			},
+			"h1": {
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
 				}
 			},
 			"h6": {

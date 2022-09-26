@@ -15,6 +15,7 @@
 | @DaisyOlsen | @daisyo |
 | @desrosj | @desrosj |
 | @dianeco | @dianeco |
+| @felipeelia | @felipeelia |
 | @hiyascout | @hiyascout |
 | @jasmussen | @joen |
 | @jffng | @jffng |

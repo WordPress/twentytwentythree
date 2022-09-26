@@ -29,7 +29,7 @@
 				</p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:post-date {"format":"<?php echo esc_html_x( 'F j, Y', 'Date format for publication date of post', 'twentytwentythree' ); ?>"} /-->
+				<!-- wp:post-date /-->
 
 				<!-- wp:paragraph -->
 				<p>

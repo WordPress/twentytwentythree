@@ -43,6 +43,14 @@
 					"background": "var(--wp--preset--color--contrast)",
 					"text": "var(--wp--preset--color--base)"
 				},
+				"spacing": {
+					"padding": {
+						"top": ".667em",
+						"right": "1.333em",
+						"bottom": ".667em",
+						"left": "1.333em"
+					}
+				},
 				":hover": {
 					"border": {
 						"color": "var(--wp--preset--color--contrast)",

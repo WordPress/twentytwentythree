@@ -34,6 +34,11 @@
 	"styles": {
 		"elements": {
 			"button": {
+				"border": {
+					"style": "solid",
+					"width": "1px",
+					"color": "var(--wp--preset--color--contrast)"
+				},
 				"color": {
 					"background": "var(--wp--preset--color--contrast)",
 					"text": "var(--wp--preset--color--base)"

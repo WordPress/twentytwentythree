@@ -65,7 +65,7 @@
 			"link": {
 				":hover": {
 					"typography": {
-						"textDecoration": "underline"
+						"textDecoration": "underline dashed"
 					}
 				}
 			}

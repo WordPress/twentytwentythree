@@ -358,6 +358,11 @@
 					"link": {
 						"typography": {
 							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
 						}
 					}
 				}
@@ -533,6 +538,11 @@
 					"link": {
 						"typography": {
 							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
 						}
 					}
 				}

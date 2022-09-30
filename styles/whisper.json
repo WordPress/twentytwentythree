@@ -468,6 +468,9 @@
 					}
 				},
 				":active": {
+					"border": {
+						"width": "0"
+					},
 					"color": {
 						"text": "var(--wp--preset--color--secondary)"
 					},

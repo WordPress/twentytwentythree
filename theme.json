@@ -274,10 +274,8 @@
 				{
 					"size": "2.25rem",
 					"slug": "x-large",
-					"fluid": {
-						"min": "2rem",
-						"max": "10rem"
-					}				},
+					"fluid": false
+				},
 				{
 					"size": "10rem",
 					"slug": "xx-large",

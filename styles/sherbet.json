@@ -112,6 +112,17 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/comments": {
+				"elements": {
+					"link": {
+						":active": {
+							"color": {
+								"text": "var(--wp--preset--color--contrast)"
+							}
+						}
+					}
+				}
+			},
 			"core/comment-author-name": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",

@@ -23,22 +23,6 @@
 				"page"
 			],
 			"title": "404"
-		},
-		{
-			"name": "with-featured-image",
-			"postTypes": [
-				"page",
-				"post"
-			],
-			"title": "With Featured Image"
-		},
-		{
-			"name": "with-cover-block",
-			"postTypes": [
-				"page",
-				"post"
-			],
-			"title": "With Cover Block"
 		}
 	],
 	"settings": {

@@ -115,6 +115,11 @@
 					}
 				}
 			},
+			"core/image": {
+				"filter": {
+					"duotone": "var(--wp--preset--duotone--default-filter)"
+				}
+			},
 			"core/navigation": {
 				"elements": {
 					"link": {
@@ -165,6 +170,11 @@
 					}
 				}
 			},
+			"core/post-featured-image": {
+				"filter": {
+					"duotone": "var(--wp--preset--duotone--default-filter)"
+				}
+			},
 			"core/post-title": {
 				"elements": {
 					"link": {
@@ -193,7 +203,7 @@
 			},
 			"core/separator": {
 				"color": {
-					"text": "var(--wp--preset--color--tertiary)"
+					"text": "var(--wp--preset--color--secondary)"
 				}
 			},
 			"core/site-title": {

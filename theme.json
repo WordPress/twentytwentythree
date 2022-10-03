@@ -250,7 +250,7 @@
 				{
 					"fluid": {
 						"min": "0.875rem",
-						"max": "3rem"
+						"max": "1rem"
 					},
 					"size": "1rem",
 					"slug": "small"

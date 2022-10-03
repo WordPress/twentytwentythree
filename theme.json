@@ -268,7 +268,7 @@
 					"slug": "large",
 					"fluid": {
 						"min": "1.75rem",
-						"max": "15rem"
+						"max": "1.875rem"
 					}
 				},
 				{

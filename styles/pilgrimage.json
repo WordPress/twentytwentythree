@@ -203,6 +203,10 @@
 							}
 						}
 					}
+				},
+				"typography": {
+					"fontStyle": "italic",
+					"fontWeight": "700"
 				}
 			}
 		},

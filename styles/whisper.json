@@ -256,7 +256,8 @@
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)",
-					"lineHeight": "1.4"
+					"lineHeight": "1.4",
+					"textTransform": "capitalize"
 				}
 			},
 			"core/comment-author-name":{

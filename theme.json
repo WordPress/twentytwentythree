@@ -598,7 +598,7 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-large)",
+					"fontSize": "3.625rem",
 					"lineHeight": "1.2"
 				}
 			},

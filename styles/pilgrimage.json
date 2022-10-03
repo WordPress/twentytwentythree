@@ -213,7 +213,8 @@
 			"button": {
 				":active": {
 					"color": {
-						"background": "var(--wp--preset--color--secondary)"
+						"background": "var(--wp--preset--color--secondary)",
+						"gradient": "none"
 					}
 				},
 				":focus": {

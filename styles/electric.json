@@ -51,6 +51,16 @@
 						"left": "1.333em"
 					}
 				},
+				":active": {
+					"typography": {
+						"textDecoration": "underline dotted"
+					}
+				},
+				":focus": {
+					"typography": {
+						"textDecoration": "underline dotted"
+					}
+				},
 				":hover": {
 					"border": {
 						"color": "var(--wp--preset--color--contrast)",

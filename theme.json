@@ -613,7 +613,7 @@
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
+					"fontSize": "var(--wp--preset--font-size--large)"
 				}
 			},
 			"h5": {

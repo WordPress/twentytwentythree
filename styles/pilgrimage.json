@@ -37,6 +37,11 @@
 					"gradient": "linear-gradient(180deg, var(--wp--preset--color--base) 0%,var(--wp--preset--color--primary) 350%)",
 					"name": "Base to Primary",
 					"slug": "base-primary"
+				},
+				{
+					"gradient": "radial-gradient(circle at 5px 5px,#0c0d0d70 1px,#ffffff00 3px,#ffffff00 2px) 0 0 / 8px 8px, linear-gradient(180deg, var(--wp--preset--color--base) 0%,#000000 200%)",
+					"name": "Dots",
+					"slug": "dots"
 				}
 			],
 			"palette": [
@@ -217,6 +222,9 @@
 					}
 				}
 			}
+		},
+		"color": {
+			"gradient": "var(--wp--preset--gradient--dots)"
 		},
 		"elements": {
 			"button": {

@@ -266,7 +266,10 @@
 				{
 					"size": "1.75rem",
 					"slug": "large",
-					"fluid": false
+					"fluid": {
+						"min": "1.75rem",
+						"max": "1.875rem"
+					}
 				},
 				{
 					"size": "2.25rem",
@@ -590,12 +593,12 @@
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "2.25rem"
+					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "clamp(1.75rem, calc(1.75rem + ((1vw - 0.48rem) * 8.4135)), 1.875rem)"
+					"fontSize": "var(--wp--preset--font-size--large)"
 				}
 			},
 			"h5": {

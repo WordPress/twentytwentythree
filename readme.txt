@@ -23,7 +23,7 @@ https://wordpress.org/support/article/twenty-twenty-three-changelog#Version_1.0
 
 == Copyright ==
 
-Twenty Twenty-Three WordPress Theme, (C) 2022 wordpressdotorg
+Twenty Twenty-Three WordPress Theme, (C) 2022-2023 WordPress.org
 Twenty Twenty-Three is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify

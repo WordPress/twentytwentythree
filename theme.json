@@ -295,12 +295,12 @@
 					"link": {
 						":hover": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline 1px"
 							}
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline 1px dashed"
 							}
 						},
 						":active": {
@@ -348,7 +348,7 @@
 						},
 						":hover": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline 1px"
 							}
 						}
 					}
@@ -373,12 +373,12 @@
 					"link": {
 						":hover": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline 1px"
 							}
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline 1px dashed"
 							}
 						},
 						":active": {
@@ -410,12 +410,12 @@
 					"link": {
 						":hover": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline 1px"
 							}
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline 1px dashed"
 							}
 						},
 						":active": {
@@ -440,12 +440,12 @@
 					"link": {
 						":hover": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline 1px"
 							}
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline 1px dashed"
 							}
 						},
 						":active": {
@@ -503,7 +503,7 @@
 						},
 						":hover": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline 1px"
 							}
 						}
 					}
@@ -519,12 +519,12 @@
 					"link": {
 						":hover": {
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline 1px"
 							}
 						},
 						":focus": {
 							"typography": {
-								"textDecoration": "underline dashed"
+								"textDecoration": "underline 1px dashed"
 							}
 						},
 						":active": {
@@ -631,7 +631,7 @@
 				},
 				":focus": {
 					"typography": {
-						"textDecoration": "underline dashed"
+						"textDecoration": "underline 1px dashed"
 					}
 				},
 				":active": {
@@ -643,7 +643,7 @@
 					}
 				},
 				"typography": {
-					"textDecoration": "underline"
+					"textDecoration": "underline 1px"
 				}
 			}
 		},

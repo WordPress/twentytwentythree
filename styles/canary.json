@@ -70,7 +70,7 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/comment-content": {
+			"core/comments": {
 				"elements": {
 					"link": {
 						"typography": {

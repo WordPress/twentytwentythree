@@ -180,6 +180,13 @@
 					}
 				}
 			},
+			"core/query-pagination": {
+				"border": {
+					"top": {
+						"color": "var(--wp--preset--color--primary)"
+					}
+				}
+			},
 			"core/separator": {
 				"color": {
 					"text": "var(--wp--preset--color--primary)"

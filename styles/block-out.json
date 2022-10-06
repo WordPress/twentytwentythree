@@ -73,10 +73,10 @@
 				},
 				{
 					"fluid": {
-						"max": "14rem",
+						"max": "7rem",
 						"min": "4rem"
 					},
-					"size": "10rem",
+					"size": "7rem",
 					"slug": "xx-large"
 				}
 			]

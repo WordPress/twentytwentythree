@@ -70,6 +70,20 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/comments": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						}
+					}
+				}
+			},
 			"core/comment-reply-link": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
@@ -91,6 +105,20 @@
 			"core/navigation": {
 				"typography": {
 					"textTransform": "lowercase"
+				}
+			},
+			"core/post-content": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						}
+					}
 				}
 			},
 			"core/post-featured-image": {

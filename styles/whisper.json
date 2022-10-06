@@ -202,6 +202,15 @@
 					}
 				}
 			},
+			"core/query-pagination": {
+				"border": {
+					"top": {
+						"color": "var(--wp--preset--color--contrast)",
+						"style": "double",
+						"width": "6px"
+					}
+				}
+			},
 			"core/separator": {
 				"border": {
 					"color": "var(--wp--preset--color--contrast)",

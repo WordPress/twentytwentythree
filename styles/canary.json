@@ -117,6 +117,13 @@
 					"fontWeight": "700"
 				}
 			},
+			"core/query-pagination": {
+				"border": {
+					"top": {
+						"width": "4px"
+					}
+				}
+			},
 			"core/separator": {
 				"border": {
 					"width": "2px"

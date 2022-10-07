@@ -177,6 +177,17 @@
 						"width": "2px"
 					}
 				},
+				":focus": {
+					"color": {
+						"background": "var(--wp--preset--color--base)",
+						"text": "var(--wp--preset--color--contrast)"
+					},
+					"border": {
+						"color": "var(--wp--preset--color--contrast)",
+						"style": "solid",
+						"width": "2px"
+					}
+				},
 				"border": {
 					"radius": "5px",
 					"color": "var(--wp--preset--color--contrast)",

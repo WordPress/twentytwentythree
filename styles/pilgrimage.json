@@ -39,7 +39,7 @@
 					"slug": "base-primary"
 				},
 				{
-					"gradient": "radial-gradient(circle at 5px 5px,#0c0d0d70 1px,#ffffff00 3px,#ffffff00 2px) 0 0 / 8px 8px, linear-gradient(180deg, var(--wp--preset--color--base) 0%,#000000 200%)",
+					"gradient": "radial-gradient(circle at 5px 5px,#0c0d0d70 2px,#ffffff00 0px,#ffffff00 0px) 0 0 / 8px 8px, linear-gradient(180deg, var(--wp--preset--color--base) 0%,#000000 200%)",
 					"name": "Dots",
 					"slug": "dots"
 				}

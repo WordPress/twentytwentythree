@@ -494,7 +494,9 @@
 				"elements": {
 					"cite": {
 						"typography": {
-							"fontSize": "var(--wp--preset--font-size--small)"
+							"fontSize": "var(--wp--preset--font-size--small)",
+							"fontStyle": "normal",
+							"textTransform": "none"
 						}
 					}
 				},

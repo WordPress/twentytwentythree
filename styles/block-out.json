@@ -159,9 +159,9 @@
 			},
 			"core/query": {
 				"elements": {
-					"h3": {
-						"color": {
-							"text": "var(--wp--preset--color--contrast)"
+					"h2": {
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--large)"
 						}
 					}
 				}

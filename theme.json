@@ -503,8 +503,8 @@
 				},
 				"spacing": {
 					"margin": {
-						"bottom": "var(--wp--preset--spacing--50) !important",
-						"top": "var(--wp--preset--spacing--50) !important"
+						"bottom": "var(--wp--preset--spacing--40) !important",
+						"top": "var(--wp--preset--spacing--40) !important"
 					}
 				}
 			},

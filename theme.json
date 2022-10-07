@@ -550,6 +550,12 @@
 							"fontStyle": "normal"
 						}
 					}
+				},
+				"spacing": {
+					"padding": {
+						"left": "var(--wp--preset--spacing--30)",
+						"right": "var(--wp--preset--spacing--30)"
+					}
 				}
 			},
 			"core/site-title": {

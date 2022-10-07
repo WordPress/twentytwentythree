@@ -196,6 +196,14 @@
 				},
 				"color": {
 					"text": "var(--wp--preset--color--base)"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "0.667em",
+						"left": "1.333em",
+						"right": "1.333em",
+						"top": "0.667em"
+					}
 				}
 			},
 			"h1": {

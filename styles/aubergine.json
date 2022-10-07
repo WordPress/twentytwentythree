@@ -158,6 +158,15 @@
 				}
 			},
 			"core/post-title": {
+				"elements": {
+					"link": {
+						":active": {
+							"color": {
+								"text": "var(--wp--preset--color--contrast)"
+							}
+						}
+					}
+				},
 				"typography": {
 					"fontSize": "clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem)"
 				}
@@ -268,7 +277,7 @@
 			"link": {
 				":active": {
 					"color": {
-						"text": "var(--wp--preset--color--tertiary)"
+						"text": "var(--wp--preset--color--primary)"
 					}
 				}
 			}

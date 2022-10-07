@@ -252,20 +252,23 @@
 				},
 				":hover": {
 					"color": {
-						"gradient": "var(--wp--preset--gradient--primary-tertiary)",
-						"text": "var(--wp--preset--color--contrast)"
+						"background": "var(--wp--preset--color--primary)",
+						"gradient": "none",
+						"text": "var(--wp--preset--color--secondary)"
 					}
 				},
 				":focus": {
 					"color": {
-						"gradient": "var(--wp--preset--gradient--primary-tertiary)",
-						"text": "var(--wp--preset--color--contrast)"
+						"background": "var(--wp--preset--color--primary)",
+						"gradient": "none",
+						"text": "var(--wp--preset--color--secondary)"
 					}
 				},
 				":active": {
 					"color": {
-						"gradient": "var(--wp--preset--gradient--primary-tertiary)",
-						"text": "var(--wp--preset--color--contrast)"
+						"background": "var(--wp--preset--color--primary)",
+						"gradient": "none",
+						"text": "var(--wp--preset--color--secondary)"
 					}
 				}
 			},

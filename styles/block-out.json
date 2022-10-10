@@ -1,4 +1,6 @@
 {
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
 	"title": "Block out",
 	"settings": {
 		"color": {
@@ -73,10 +75,10 @@
 				},
 				{
 					"fluid": {
-						"max": "14rem",
+						"max": "7rem",
 						"min": "4rem"
 					},
-					"size": "10rem",
+					"size": "7rem",
 					"slug": "xx-large"
 				}
 			]
@@ -163,6 +165,12 @@
 						}
 					}
 				},
+				"spacing": {
+					"padding": {
+						"bottom": "var(--wp--preset--spacing--30)",
+						"top": "var(--wp--preset--spacing--30)"
+					}
+				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xx-large)",
 					"lineHeight": "1.1",
@@ -171,9 +179,9 @@
 			},
 			"core/query": {
 				"elements": {
-					"h3": {
-						"color": {
-							"text": "var(--wp--preset--color--contrast)"
+					"h2": {
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--large)"
 						}
 					}
 				}
@@ -233,7 +241,5 @@
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--dm-sans)"
 		}
-	},
-	"version": 2,
-	"$schema": "https://schemas.wp.org/trunk/theme.json"
+	}
 }

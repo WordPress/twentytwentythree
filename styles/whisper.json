@@ -152,6 +152,23 @@
 					}
 				}
 			},
+			"core/post-date": {
+				"elements": {
+					"link": {
+						":hover": {
+							"border": {
+								"color": "var(--wp--preset--color--contrast)"
+							},
+							"color": {
+								"background": "var(--wp--preset--color--tertiary)"
+							},
+							"typography": {
+								"textDecoration": "none"
+							}
+						}
+					}
+				}
+			},
 			"core/post-title": {
 				"elements": {
 					"link": {
@@ -210,6 +227,27 @@
 						"color": "var(--wp--preset--color--contrast)",
 						"style": "double",
 						"width": "6px"
+					}
+				},
+				"elements": {
+					"link": {
+						":hover": {
+							"border": {
+								"color": "var(--wp--preset--color--contrast)"
+							},
+							"color": {
+								"background": "var(--wp--preset--color--tertiary)"
+							},
+							"typography": {
+								"textDecoration": "none"
+							}
+						},
+						":active": {
+							"border": {
+								"color": "var(--wp--preset--color--base)",
+								"width": "0 0 2px 0"
+							}
+						}
 					}
 				}
 			},

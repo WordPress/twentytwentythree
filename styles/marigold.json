@@ -116,6 +116,17 @@
   },
   "styles": {
 		"blocks": {
+			"core/comment-author-name": {
+				"elements": {
+					"link": {
+						":active": {
+							"color": {
+								"text": "var(--wp--preset--color--primary)"
+							}
+						}
+					}
+				}
+			},
 			"core/query": {
 				"spacing": {
 					"padding": {
@@ -249,9 +260,14 @@
 				}
 			},
 			"link": {
+				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--primary)"
+					}
+				},
 				":hover": {
 					"typography": {
-					"textDecoration": "none"
+						"textDecoration": "none"
 					}
 				}
 			},
@@ -267,7 +283,8 @@
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--tertiary)"
+						"background": "var(--wp--preset--color--tertiary)",
+						"text": "var(--wp--preset--color--contrast)"
 					}
 				},
 				":focus": {

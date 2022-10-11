@@ -50,6 +50,23 @@
 				{
 					"size": "0.75rem",
 					"slug": "small"
+				},
+				{
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"size": "1.75rem",
+					"slug": "large"
+				},
+				{
+					"size": "2.25rem",
+					"slug": "x-large",
+					"fluid": false
+				},
+				{
+					"size": "10rem",
+					"slug": "xx-large"
 				}
 			]
 		}

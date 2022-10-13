@@ -96,11 +96,6 @@
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
-			"core/heading": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
-				}
-			},
 			"core/image": {
 				"border": {
 					"radius": "100px 0 0 0"

@@ -282,7 +282,8 @@
 					"fluid": {
 						"min": "4rem",
 						"max": "20rem"
-					}
+					},
+					"name": "2X Large"
 				}
 			]
 		},

@@ -264,25 +264,25 @@
 					"slug": "medium"
 				},
 				{
-					"size": "1.75rem",
-					"slug": "large",
 					"fluid": {
 						"min": "1.75rem",
 						"max": "1.875rem"
-					}
+					},
+					"size": "1.75rem",
+					"slug": "large"
 				},
 				{
+					"fluid": false,
 					"size": "2.25rem",
-					"slug": "x-large",
-					"fluid": false
+					"slug": "x-large"
 				},
 				{
-					"size": "10rem",
-					"slug": "xx-large",
 					"fluid": {
 						"min": "4rem",
-						"max": "20rem"
-					}
+						"max": "10rem"
+					},
+					"size": "10rem",
+					"slug": "xx-large"
 				}
 			]
 		},

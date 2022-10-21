@@ -95,6 +95,15 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/file": {
+				"elements": {
+					"button": {
+						"color": {
+							"text": "var(--wp--preset--color--base)"
+						}
+					}
+				}
+			},
 			"core/comment-reply-link": {
 				"elements": {
 					"link": {

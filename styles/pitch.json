@@ -130,6 +130,15 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/file": {
+				"elements": {
+					"button": {
+						"color": {
+							"text": "var(--wp--preset--color--base)"
+						}
+					}
+				}
+			},
 			"core/separator": {
 				"border": {
 					"color":"var(--wp--preset--color--tertiary)",

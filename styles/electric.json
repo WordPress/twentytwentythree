@@ -34,6 +34,17 @@
 		}
 	},
 	"styles": {
+		"blocks": {
+			"core/file": {
+				"elements": {
+					"button": {
+						"color": {
+							"text": "var(--wp--preset--color--base)"
+						}
+					}
+				}
+			}
+		},
 		"elements": {
 			"button": {
 				"border": {

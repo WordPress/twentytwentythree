@@ -290,6 +290,15 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/file": {
+				"elements": {
+					"button": {
+						"color": {
+							"text": "var(--wp--preset--color--contrast)"
+						}
+					}
+				}
+			},
 			"core/navigation": {
 				"elements": {
 					"link": {

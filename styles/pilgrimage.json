@@ -122,6 +122,15 @@
 					}
 				}
 			},
+			"core/file": {
+				"elements": {
+					"button": {
+						"color": {
+							"text": "var(--wp--preset--color--base)"
+						}
+					}
+				}
+			},
 			"core/image": {
 				"filter": {
 					"duotone": "var(--wp--preset--duotone--default-filter)"

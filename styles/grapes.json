@@ -38,8 +38,10 @@
 			"core/file": {
 				"elements": {
 					"button": {
-						"color": {
-							"text": "var(--wp--preset--color--base)"
+						":visited": {
+							"color": {
+								"text": "var(--wp--preset--color--base)"
+							}
 						}
 					}
 				}

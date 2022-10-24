@@ -86,8 +86,10 @@
 			"core/file": {
 				"elements": {
 					"button": {
-						"color": {
-							"text": "var(--wp--preset--color--primary)"
+						":visited": {
+							"color": {
+								"text": "var(--wp--preset--color--primary)"
+							}
 						}
 					}
 				}

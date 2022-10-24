@@ -293,8 +293,10 @@
 			"core/file": {
 				"elements": {
 					"button": {
-						"color": {
-							"text": "var(--wp--preset--color--contrast)"
+						":visited": {
+							"color": {
+								"text": "var(--wp--preset--color--contrast)"
+							}
 						}
 					}
 				}

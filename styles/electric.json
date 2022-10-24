@@ -34,19 +34,6 @@
 		}
 	},
 	"styles": {
-		"blocks": {
-			"core/file": {
-				"elements": {
-					"button": {
-						":visited": {
-							"color": {
-								"text": "var(--wp--preset--color--base)"
-							}
-						}
-					}
-				}
-			}
-		},
 		"elements": {
 			"button": {
 				"border": {
@@ -85,6 +72,11 @@
 					"color": {
 						"background": "var(--wp--preset--color--base)",
 						"text": "var(--wp--preset--color--contrast)"
+					}
+				},
+				":visited": {
+					"color": {
+						"text": "var(--wp--preset--color--base)"
 					}
 				}
 			},

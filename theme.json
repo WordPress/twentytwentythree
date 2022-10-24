@@ -290,17 +290,6 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/file": {
-				"elements": {
-					"button": {
-						":visited": {
-							"color": {
-								"text": "var(--wp--preset--color--contrast)"
-							}
-						}
-					}
-				}
-			},
 			"core/navigation": {
 				"elements": {
 					"link": {
@@ -629,6 +618,11 @@
 					"color": {
 						"background": "var(--wp--preset--color--secondary)",
 						"text": "var(--wp--preset--color--base)"
+					}
+				},
+				":visited": {
+					"color": {
+						"text": "var(--wp--preset--color--contrast)"
 					}
 				}
 			},

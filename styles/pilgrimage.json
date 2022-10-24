@@ -122,17 +122,6 @@
 					}
 				}
 			},
-			"core/file": {
-				"elements": {
-					"button": {
-						":visited": {
-							"color": {
-								"text": "var(--wp--preset--color--base)"
-							}
-						}
-					}
-				}
-			},
 			"core/image": {
 				"filter": {
 					"duotone": "var(--wp--preset--duotone--default-filter)"
@@ -259,6 +248,11 @@
 				":hover": {
 					"color": {
 						"gradient": "var(--wp--preset--gradient--secondary-primary)"
+					}
+				},
+				":visited": {
+					"color": {
+						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				"border": {

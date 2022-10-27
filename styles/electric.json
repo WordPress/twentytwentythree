@@ -76,7 +76,7 @@
 					},
 					"color": {
 						"background": "var(--wp--preset--color--base)",
-						"text": "var(--wp--preset--color--contrast)"
+						"text": "var(--wp--preset--color--contrast) !important"
 					}
 				}
 			},

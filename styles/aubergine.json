@@ -254,7 +254,7 @@
 					"color": {
 						"background": "var(--wp--preset--color--primary)",
 						"gradient": "none",
-						"text": "var(--wp--preset--color--secondary)"
+						"text": "var(--wp--preset--color--secondary) !important"
 					}
 				},
 				":focus": {

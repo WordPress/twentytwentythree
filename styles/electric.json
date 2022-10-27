@@ -53,6 +53,11 @@
 						"left": "1.333em"
 					}
 				},
+				":visited": {
+					"color": {
+						"text": "var(--wp--preset--color--base)"
+					}
+				},
 				":active": {
 					"typography": {
 						"textDecoration": "underline dotted"
@@ -72,11 +77,6 @@
 					"color": {
 						"background": "var(--wp--preset--color--base)",
 						"text": "var(--wp--preset--color--contrast)"
-					}
-				},
-				":visited": {
-					"color": {
-						"text": "var(--wp--preset--color--base)"
 					}
 				}
 			},

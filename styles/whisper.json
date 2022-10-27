@@ -376,6 +376,11 @@
 					"letterSpacing": "1px",
 					"textTransform": "uppercase"
 				},
+				":visited": {
+					"color": {
+						"text": "var(--wp--preset--color--primary)"
+					}
+				},
 				":hover": {
 					"border": {
 						"color": "var(--wp--preset--color--secondary)",
@@ -420,11 +425,6 @@
 						"padding": {
 							"bottom": "min(calc(1rem + 2px), 3vw) !important"
 						}
-					}
-				},
-				":visited": {
-					"color": {
-						"text": "var(--wp--preset--color--primary)"
 					}
 				}
 			},

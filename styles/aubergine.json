@@ -245,6 +245,11 @@
 					"gradient": "var(--wp--preset--gradient--tertiary-primary)",
 					"text": "var(--wp--preset--color--base)"
 				},
+				":visited": {
+					"color": {
+						"text": "var(--wp--preset--color--base)"
+					}
+				},
 				":hover": {
 					"color": {
 						"background": "var(--wp--preset--color--primary)",
@@ -264,11 +269,6 @@
 						"background": "var(--wp--preset--color--primary)",
 						"gradient": "none",
 						"text": "var(--wp--preset--color--secondary)"
-					}
-				},
-				":visited": {
-					"color": {
-						"text": "var(--wp--preset--color--base)"
 					}
 				}
 			},

@@ -1,6 +1,6 @@
 **This theme has been merged into the WordPress Core SVN repository, and is no longer maintained on GitHub.**
 
-**Please report all new bugs of reature requests on Trac: https://core.trac.wordpress.org/newticket.**
+**Please report all new bugs or feature requests on Trac: https://core.trac.wordpress.org/newticket.**
 
 **Browse open issues: https://core.trac.wordpress.org/search?q=twenty+twenty-three.**
 
